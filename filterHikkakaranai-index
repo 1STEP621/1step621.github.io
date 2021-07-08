@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="shift_jis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1STEP621のホームページ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="icon" type="image/x-icon" href="ロゴ(png).png">
+    <style>
+      h1{
+        font-size: 30px;
+        font-family: Yu Gothic;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      p{
+        font-size: 15px;
+        font-family: Yu Gothic;
+        font-weight: bold;
+        line-height: 3em;
+        text-align: center;
+      }
+
+      div{
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+   <br><h1><div class="box">1STEP621のホームページ</div></h1>
+   <p>普段Scratchなどを使ってプログラミングをしている1STEP621のホームページです。</p>
+
+   <h1><div class="box">自己紹介</div></h1>
+   <p>プログラミング勉強中の中2です。</p>
+   <p>特技は指を変な方向に曲げることです。</p>
+   <p>好きなたべものはひやし中華です。</p>
+   <div align="center"><img src="ロゴ(png).png" width="100px" height="100px"></div>
+
+   <h1><div class="box">Scratch作品集</div></h1>
+   <div align="center"><iframe src="https://scratch.mit.edu/projects/446751910/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+   <p>矢印キーまたはWASD、タップで操作。</p>
+   <iframe src="https://scratch.mit.edu/projects/478466141/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+   <p>操作方法は上と同じ</p>
+   <iframe src="https://scratch.mit.edu/projects/527793341/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+   <p>D、F、J、Kまたはタップで操作できます。</p>
+
+   <h1><div class="box">リンク集</div></h1>
+   <br><div><button class="button" onclick="location.href='https://scratch.mit.edu/users/1STEP621/'">Scratch</button></div>
+   <p>Scratchのリンクです。ゲームやらなにやらを公開してます</p>
+   <div><button class="button" onclick="location.href='https://www.youtube.com/channel/UCzWmmC_28ehjrc4OQ7vARhw'">YouTube</button></div>
+  </body>
+  <p>YouTubeのリンクです。今はたいして何も公開してませんが作りかけゲームの進捗を公開しようかなと思っています</p>
+</html>
