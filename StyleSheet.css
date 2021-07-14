@@ -19,9 +19,10 @@ div{
 
 header {
   width: 100%;
-  padding: 15px 0;
+  padding: 15px;
   margin: 0 auto;
   text-align: center;
+  background-color: #4fc4b3;
 }
 
 header .headline{
@@ -38,8 +39,4 @@ header .headline{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-}
-
-header{
-  background-color: #4fc4b3;
 }
