@@ -1,0 +1,45 @@
+h1{
+  font-size: 30px;
+  font-family: Yu Gothic;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  font-size: 15px;
+  font-family: Yu Gothic;
+  font-weight: bold;
+  line-height: 3em;
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .headline{
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header{
+  background-color: #4fc4b3;
+}
