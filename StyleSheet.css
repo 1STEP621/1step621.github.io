@@ -5,11 +5,18 @@ h1{
   text-align: center;
 }
 
+h2{
+  font-size: 30px;
+  font-family: Yu Gothic;
+  font-weight: bold;
+  text-align: center;
+}
+
 p{
   font-size: 15px;
   font-family: Yu Gothic;
   font-weight: bold;
-  line-height: 4em;
+  line-height: 3em;
   text-align: center;
 }
 
@@ -18,8 +25,8 @@ div{
 }
 
 header {
-  width: 100%;
   padding: 15px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   background-color: #4fc4b3;
@@ -31,7 +38,7 @@ header .headline{
 
 .nav-list {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -39,4 +46,9 @@ header .headline{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+}
+
+h1{
+    padding: 15px;
+    background-color: #b1c4c1;
 }
