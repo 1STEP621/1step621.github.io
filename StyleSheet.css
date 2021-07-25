@@ -52,5 +52,6 @@ h1{
 }
 
 button{
-font-family: Yu Gothic;
+    font-family: Yu Gothic;
+    font-weight: bold;
 }
