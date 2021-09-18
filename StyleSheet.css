@@ -1,21 +1,15 @@
 h1{
   font-size: 30px;
-  font-family: Yu Gothic;
-  font-weight: bold;
   text-align: center;
 }
 
 h2{
   font-size: 30px;
-  font-family: Yu Gothic;
-  font-weight: bold;
   text-align: center;
 }
 
 p{
   font-size: 15px;
-  font-family: Yu Gothic;
-  font-weight: bold;
   line-height: 3em;
   text-align: center;
 }
@@ -53,4 +47,6 @@ h1{
 
 body{
   text-align: center;
+  font-family: Yu Gothic;
+  font-weight: bold;
 }
