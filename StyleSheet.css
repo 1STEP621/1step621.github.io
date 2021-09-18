@@ -1,3 +1,10 @@
+/*フォント、文字サイズ、中央ぞろえ*/
+body{
+  text-align: center;
+  font-family: Yu Gothic;
+  font-weight: bold;
+}
+
 h1{
   font-size: 30px;
   padding: 15px;
@@ -12,14 +19,11 @@ p{
   line-height: 3em;
 }
 
+/*ヘッダー*/
 header {
   padding: 15px;
   width: 100%;
   margin: 0 auto;
-}
-
-header .headline{
-  font-size: 32px;
 }
 
 .nav-list {
@@ -31,10 +35,4 @@ header .headline{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-}
-
-body{
-  text-align: center;
-  font-family: Yu Gothic;
-  font-weight: bold;
 }
