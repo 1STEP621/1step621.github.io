@@ -2,17 +2,19 @@
 *{
   text-align: center;
   font-family: "Yu Gothic";
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 h1{
   font-size: 30px;
   padding: 15px;
+  font-weight: 700;
 }
 
 p{
   font-size: 15px;
   line-height: 3em;
+  font-weight: 700;
 }
 
 /*ヘッダー*/
