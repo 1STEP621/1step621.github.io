@@ -1,5 +1,6 @@
 h1{
   font-size: 30px;
+  padding: 15px;
 }
 
 h2{
@@ -15,7 +16,6 @@ header {
   padding: 15px;
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 header .headline{
@@ -23,7 +23,6 @@ header .headline{
 }
 
 .nav-list {
-  text-align: center;
   padding: 10px;
   margin: 0 auto;
 }
@@ -32,10 +31,6 @@ header .headline{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-}
-
-h1{
-  padding: 15px;
 }
 
 body{
