@@ -1,7 +1,8 @@
 /*フォント、文字サイズ、中央ぞろえ*/
 body{
   text-align: center;
-  font-family: "游ゴシック Bold";
+  font-family: "Yu Gothic";
+  font-weight: Bold:
 }
 
 h1{
