@@ -49,3 +49,8 @@ header {
 .projects :hover img{
   opacity: 0.8;
 }
+
+/*モナー用設定*/
+araburu_askii_art{
+  font-family:MS Gothic;
+}
