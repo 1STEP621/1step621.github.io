@@ -40,3 +40,8 @@ header {
     background: #8daeb8;
     color: #ffffff;
 }
+
+/*プロジェクト画像の角丸*/
+.projects :not p{
+  border-radius: 10px;
+}
