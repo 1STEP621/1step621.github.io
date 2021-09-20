@@ -42,6 +42,6 @@ header {
 }
 
 /*プロジェクト画像の角丸*/
-.projects :not p{
+.projects :not(p){
   border-radius: 10px;
 }
