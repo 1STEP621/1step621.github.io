@@ -51,7 +51,7 @@ header {
 }
 
 /*モナー用設定*/
-araburu_askii_art{
+.araburu_askii_art{
   font-family:MS Gothic;
   line-height: 1em;
 }
