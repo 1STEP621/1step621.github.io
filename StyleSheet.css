@@ -42,10 +42,10 @@ header {
 }
 
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
-.projects :not(p){
+.projects img{
   border-radius: 6px;
   transition: all 0.3s ease 0s;
 }
-.projects :not(p):hover{
+.projects img :hover{
   opacity: 0.8;
 }
