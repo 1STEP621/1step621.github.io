@@ -46,6 +46,6 @@ header {
   border-radius: 6px;
   transition: all 0.3s ease 0s;
 }
-.projects img :hover{
+.projects :hover img{
   opacity: 0.8;
 }
