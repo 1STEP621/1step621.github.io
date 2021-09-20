@@ -41,7 +41,12 @@ header {
     color: #ffffff;
 }
 
-/*プロジェクト画像の角丸*/
+/*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
 .projects :not(p){
   border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.hover1:hover {
+	opacity: 0.7;
 }
