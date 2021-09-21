@@ -49,3 +49,16 @@ header {
 .projects :hover img{
   opacity: 0.8;
 }
+
+/*カクカクアニメーション*/
+.kakukaku {
+  display: inline-block;
+  animation: kakukaku .1s infinite;
+  animation-timing-function:steps(2);
+  animation-duration:1s;
+}
+
+@keyframes kakukaku {
+  0% {transform: translate(0px, 0px)}
+  100% {transform: translate(50px, 0px)}
+}
