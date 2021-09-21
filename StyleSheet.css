@@ -50,23 +50,9 @@ header {
   opacity: 0.8;
 }
 
-/*marqueeの代わり*/
-.marquee {
-  overflow: hidden;
-}
-.marquee p {
-  display: inline-block;
-  white-space: nowrap;
-  animation-name: marquee;
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes marquee {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    transform: translateX(-100%);
-  }
+/*marquee設定*/
+marquee{
+  text-align:left;
+  font-family:MS Gothic;
+  font-size:70px;
 }
