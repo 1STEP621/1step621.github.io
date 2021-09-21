@@ -52,7 +52,7 @@ header {
 
 /*marquee設定*/
 marquee{
-  text-align:left;
+  text-align:start;
   font-family:MS Gothic;
   font-size:70px;
 }
