@@ -49,8 +49,3 @@ header {
 .projects :hover img{
   opacity: 0.8;
 }
-
-/*marquee設定*/
-marquee{
-  text-align:start;
-}
