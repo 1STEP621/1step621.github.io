@@ -9,5 +9,6 @@ https://q-az.net/buruburu-hurueru-css/
 https://web-camp.io/magazine/archives/27870 
 https://techacademy.jp/magazine/24552  
 https://www.youtube.com/watch?v=KG2m-eGkOQI  
-https://www.zentai-powered.com/privacy-policy  (プライバシーポリシーの書き方を参考にしました)  
+https://www.zentai-powered.com/privacy-policy  (プライバシーポリシー、免責事項の書き方を参考にしました)  
+https://www.xserver.ne.jp/blog/write-privacy-policy/#%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85%E3%81%AB%E7%9B%9B%E3%82%8A%E8%BE%BC%E3%82%80%E9%A0%85%E7%9B%AE
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
