@@ -15,6 +15,7 @@ p{
   font-size: 15px;
   line-height: 3em;
   font-weight: 700;
+  padding:0px 15px;
 }
 
 /*ヘッダー*/
@@ -61,9 +62,4 @@ header {
 @keyframes kakukaku {
   0% {transform: translate(0px, 0px)}
   100% {transform: translate(50px, 0px)}
-}
-
-/*文字が端までいかないようにする*/
-p{
-  padding:0px 15px;
 }
