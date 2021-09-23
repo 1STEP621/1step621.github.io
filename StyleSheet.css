@@ -64,6 +64,6 @@ header {
 }
 
 /*ボタンの体裁整え*/
-p :not(button){
+p :not(button) :not(a){
   padding:0px 15px;
 }
