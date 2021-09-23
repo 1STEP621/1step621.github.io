@@ -63,7 +63,7 @@ header {
   100% {transform: translate(50px, 0px)}
 }
 
-/*ボタンの体裁整え*/
-p :not(button) :not(a){
+/*文字が端までいかないようにする*/
+p{
   padding:0px 15px;
 }
