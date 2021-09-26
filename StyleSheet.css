@@ -7,7 +7,6 @@
 h1{
   font-size: 30px;
   font-weight: 700;
-  padding:15px 0px;
 }
 
 p{
@@ -25,6 +24,10 @@ p{
   .wrapper{
     width:100%;
   }
+}
+
+.box{
+  padding:15px 0px;
 }
 
 /*ヘッダー*/
