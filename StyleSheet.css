@@ -22,7 +22,7 @@ p{
   width:38em;
 }
 
-@media screen and (min-width:800px){
+@media screen and (max-width:800px){
   .wrapper{
     width:100%
   }
