@@ -11,7 +11,6 @@ body{
 h1{
   font-size: 30px;
   font-weight: 700;
-  padding:15px 0px;
 }
 
 p{
@@ -24,6 +23,7 @@ p{
   margin:0 auto;
   width:40em;
   background-color:#ffffff;
+  padding:15px;
 }
 
 @media screen and (max-width:800px){
