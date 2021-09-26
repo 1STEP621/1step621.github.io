@@ -28,10 +28,6 @@ p{
   }
 }
 
-.box :not(header){
-  margin:24px 0px;
-}
-
 /*ヘッダー*/
 header {
   width: 100%;
