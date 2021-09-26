@@ -28,8 +28,8 @@ p{
   }
 }
 
-.box{
-  margin:24px;
+.box :not(header){
+  margin:24px 0px;
 }
 
 /*ヘッダー*/
