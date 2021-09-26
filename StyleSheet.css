@@ -7,6 +7,7 @@
 h1{
   font-size: 30px;
   font-weight: 700;
+  padding:15px 0px;
 }
 
 p{
@@ -22,7 +23,7 @@ p{
 
 @media screen and (max-width:800px){
   .wrapper{
-    width:100%
+    width:100%;
   }
 }
 
