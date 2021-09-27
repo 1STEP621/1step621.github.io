@@ -2,6 +2,10 @@
 *{
   font-family: "Yu Gothic";
   font-weight: 700;
+  word-break: keep-all;
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1{
@@ -17,7 +21,7 @@ p{
 
 .wrapper{
   margin:0 auto;
-  width:33em;
+  width:35em;
   background-color:#ffffff;
   padding:15px;
 }
