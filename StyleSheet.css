@@ -19,6 +19,10 @@ p{
   font-weight: 700;
 }
 
+.box{
+  margin:0px 15px;
+}
+
 .wrapper{
   margin:0 auto;
   width:35em;
@@ -37,7 +41,7 @@ header {
   width: 100%;
   margin: 0 auto;
   text-align:center;
-  padding:15px;
+  margin:15px;
 }
 
 .nav-list {
