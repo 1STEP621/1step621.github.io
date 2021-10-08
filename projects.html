@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="StyleSheet.css">
   <link rel="icon" type="image/x-icon" href="assets/1step621_ロゴ.svg">
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(function() {
+      $("#header").load("header.html");
+    });
+  </script>
 </head>
 
 <body>
-  <?php include("header.html");?>
+  <div id="header"></div>
   <div class="wrapper">
     <p>Scratchで作った作品たちです。</p>
     <div class="projects">
