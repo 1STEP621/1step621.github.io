@@ -29,7 +29,6 @@ a:hover {
 }
 
 .box{
-  box-shadow:0 0 
   margin:15px 0px;
 }
 
@@ -50,6 +49,8 @@ a:hover {
 header {
   width: 100%;
   text-align:center;
+  background-color:#eaf7fb;
+  overflow:hidden;
 }
 
 .nav-list {
