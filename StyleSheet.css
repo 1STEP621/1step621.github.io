@@ -6,6 +6,7 @@
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  font-weight:700;
 }
 
 body{
@@ -26,6 +27,7 @@ h1:not(.header-title) {
 p{
   font-size: 15px;
   line-height: 3em;
+  font-weight:700;
 }
 
 a{
