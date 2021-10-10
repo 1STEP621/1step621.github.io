@@ -2,6 +2,7 @@
 *{
   font-family: "Yu Gothic";
   font-weight: 700;
+  /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
   word-wrap: break-word;
@@ -15,6 +16,7 @@ body{
 h1{
   font-size: 30px;
   font-weight: 700;
+  margin:0px;
 }
 
 p{
@@ -51,10 +53,11 @@ header {
   text-align:center;
   background-color:#eaf7fb;
   overflow:hidden;
+  padding:20px 0px;
 }
 
 .nav-list {
-  padding: 10px 10px 20px 10px;
+  padding-top:10px;
   margin: 0 auto;
 }
 
