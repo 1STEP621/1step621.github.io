@@ -76,7 +76,7 @@ header {
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
 .projects img{
   border-radius: 6px;
-  width:100%;
+  width:70%;
   transition: all 0.3s ease 0s;
 }
 .projects :hover img{
