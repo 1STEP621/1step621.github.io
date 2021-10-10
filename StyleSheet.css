@@ -57,8 +57,8 @@ header {
 }
 
 .nav-list {
-  padding-top:10px;
-  margin: 0 auto;
+  padding:0px;
+  margin-top:10px;
 }
 
 .nav-list-item {
@@ -69,8 +69,8 @@ header {
 
 /*反転した時の文字色*/
 ::selection {
-    background: #8daeb8;
-    color: #ffffff;
+  background: #8daeb8;
+  color: #ffffff;
 }
 
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
