@@ -19,6 +19,11 @@ h1{
   margin:0px;
 }
 
+h1:not(.header-title) {
+  padding-left: 10px;
+  border-left: double 9px #4e7682;
+}
+
 p{
   font-size: 15px;
   line-height: 3em;
