@@ -13,24 +13,19 @@ body{
 }
 
 h1{
+  font-size: 30px;
   font-weight: 700;
   margin:0px;
 }
 
 h1:not(.header-title) {
-  font-size: 30px;
   padding-left: 10px;
   border-left: double 9px #4e7682;
-}
-
-h1.header-title{
-  font-size:40px;
 }
 
 p{
   font-size: 15px;
   line-height: 3em;
-  font-weight: 700;
 }
 
 a{
