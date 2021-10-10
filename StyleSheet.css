@@ -1,7 +1,6 @@
 /*フォント、文字サイズ、中央ぞろえ*/
 *{
   font-family: "Yu Gothic";
-  font-weight: 700;
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
@@ -14,14 +13,18 @@ body{
 }
 
 h1{
-  font-size: 30px;
   font-weight: 700;
   margin:0px;
 }
 
 h1:not(.header-title) {
+  font-size: 30px;
   padding-left: 10px;
   border-left: double 9px #4e7682;
+}
+
+h1.header-title{
+  font-size:40px;
 }
 
 p{
