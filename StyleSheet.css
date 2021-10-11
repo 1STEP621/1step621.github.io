@@ -73,6 +73,12 @@ header {
   margin: 0 20px;
 }
 
+/*フッター*/
+footer{
+  background-color:#eaf7fb;
+  text-align:center;
+}
+
 /*反転した時の文字色*/
 ::selection {
   background: #8daeb8;
