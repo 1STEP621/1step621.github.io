@@ -28,6 +28,8 @@ p{
   font-size: 15px;
   line-height: 3em;
   font-weight:700;
+  margin:0px;
+  padding:1.5em;
 }
 
 a{
@@ -57,7 +59,6 @@ header {
   width: 100%;
   text-align:center;
   background-color:#eaf7fb;
-  overflow:hidden;
   padding:20px 0px;
 }
 
