@@ -48,9 +48,9 @@ a:hover {
   padding:15px;
 }
 
-@media screen and (max-width:37em){
+@media screen and (max-width:calc(35em + 30px)){
   .wrapper{
-    width:100%;
+    width:calc(100% - 30px);
   }
 }
 
