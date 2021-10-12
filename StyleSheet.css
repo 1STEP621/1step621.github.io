@@ -77,9 +77,6 @@ header {
 footer{
   background-color:#eaf7fb;
   text-align:center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /*反転した時の文字色*/
