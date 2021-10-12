@@ -14,4 +14,5 @@ https://www.xserver.ne.jp/blog/write-privacy-policy/#%E5%85%8D%E8%B2%AC%E4%BA%8B
 https://digitalidentity.co.jp/blog/seo/ogp-share-setting.html  
 https://wemo.tech/1909  
 https://codelife.cafe/entry/2015/10/27/222803  
+http://web-dsn.com/css/position-footer/#position  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
