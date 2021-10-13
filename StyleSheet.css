@@ -8,8 +8,10 @@
   overflow-wrap: break-word;
   font-weight:700;
   --primary-deep:#4e7682;
-  --primary-normal:#8daeb8;
   --primary-light:#eaf7fb;
+  --theme-color:#8daeb8;
+  --white:#ffffff;
+  --black:#000000
 }
 
 body{
@@ -24,7 +26,7 @@ h1{
 
 h1:not(.header-title) {
   padding-left: 10px;
-  border-left: double 9px var(--primary-normal);
+  border-left: double 9px var(--primary-deep);
 }
 
 p{
@@ -41,7 +43,7 @@ a{
 }
 
 a:hover {
-  color:#000000;
+  color:var(--black);
 }
 
 .wrapper{
@@ -84,8 +86,8 @@ footer{
 
 /*反転した時の文字色*/
 ::selection {
-  background: var(--primary-normal);
-  color: #ffffff;
+  background: var(--theme-color);
+  color: var(--white);
 }
 
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
