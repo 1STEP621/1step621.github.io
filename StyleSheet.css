@@ -6,7 +6,6 @@
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  font-weight:700;
   --primary-deep:#4e7682;
   --primary-light:#eaf7fb;
   --theme-color:#8daeb8;
@@ -32,7 +31,6 @@ h1:not(.header-title) {
 p{
   font-size: 15px;
   line-height: 3em;
-  font-weight:700;
   margin:0px;
   padding:1.5em 0px;
 }
