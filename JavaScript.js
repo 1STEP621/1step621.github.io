@@ -1,4 +1,4 @@
 $(function() {
-  $("#header").load("header.html");
-  $("#footer").load("footer.html");
+  $("#header").load("https://1step621.github.io/header.html");
+  $("#footer").load("https://1step621.github.io/footer.html");
 });
