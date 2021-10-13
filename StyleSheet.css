@@ -7,6 +7,9 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-weight:700;
+  --primary-deep:#4e7682;
+  --primary-normal:#8daeb8;
+  --primary-light:#eaf7fb;
 }
 
 body{
@@ -21,7 +24,7 @@ h1{
 
 h1:not(.header-title) {
   padding-left: 10px;
-  border-left: double 9px #4e7682;
+  border-left: double 9px var(--primary-normal);
 }
 
 p{
@@ -33,12 +36,12 @@ p{
 }
 
 a{
-  color:#006589;
+  color:var(--primary-deep);
   text-decoration:none;
 }
 
 a:hover {
-  color:#20444f;
+  color:#000000;
 }
 
 .wrapper{
@@ -58,7 +61,7 @@ a:hover {
 header {
   width: 100%;
   text-align:center;
-  background-color:#eaf7fb;
+  background-color:var(--primary-light);
   padding:20px 0px;
 }
 
@@ -75,13 +78,13 @@ header {
 
 /*フッター*/
 footer{
-  background-color:#eaf7fb;
+  background-color:var(--primary-light);
   text-align:center;
 }
 
 /*反転した時の文字色*/
 ::selection {
-  background: #8daeb8;
+  background: var(--primary-normal);
   color: #ffffff;
 }
 
