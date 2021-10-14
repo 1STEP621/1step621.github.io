@@ -15,4 +15,5 @@ https://digitalidentity.co.jp/blog/seo/ogp-share-setting.html
 https://wemo.tech/1909  
 https://codelife.cafe/entry/2015/10/27/222803  
 http://web-dsn.com/css/position-footer/#position  
+https://ai-create.net/blog/2019/08/28/%E3%80%90%E6%B8%B8%E3%82%B4%E3%82%B7%E3%83%83%E3%82%AF%E3%80%91mac%E3%81%A8win%E3%81%AE%E5%B7%AE%E7%95%B0%EF%BC%81/  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
