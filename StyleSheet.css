@@ -1,6 +1,6 @@
 /*フォント、文字サイズ、中央ぞろえ*/
 *{
-  font-family: "Yu Gothic";
+  font-family:"Yu Gothic Medium”, "游ゴシック Medium", "YuGothic", "游ゴシック体";
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
