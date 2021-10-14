@@ -6,15 +6,19 @@
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  
   --primary-deep:#4e7682;
   --primary-light:#eaf7fb;
   --theme-color:#8daeb8;
   --white:#ffffff;
-  --black:#000000
+  --black:#000000;
+  
+  color:var(--black);
 }
 
 body{
   margin:0px;
+  background-color:var(--white);
 }
 
 h1{
