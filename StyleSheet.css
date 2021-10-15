@@ -11,7 +11,7 @@
   --primary-light:#eaf7fb;
   --theme-color:#8daeb8;
   --white:#ffffff;
-  --black:#000000;
+  --black:#333333;
   
   color:var(--black);
 }
