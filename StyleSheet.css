@@ -33,7 +33,7 @@ h1:not(.header-title) {
 }
 
 p{
-  font-size: 18px;
+  font-size: 17px;
   line-height: 3em;
   margin:0px;
   padding:1.5em 0px;
@@ -69,6 +69,7 @@ header {
 }
 
 .nav-list {
+  font-size:17px;
   padding:0px;
   margin: 10px 0px 0px 0px;
 }
