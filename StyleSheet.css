@@ -86,7 +86,7 @@ header {
 /*フッター*/
 footer{
   background-color:var(--primary-light);
-  text-align:center!important;
+  text-align:center;
 }
 
 /*反転した時の文字色*/
