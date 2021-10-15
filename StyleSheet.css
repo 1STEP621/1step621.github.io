@@ -1,6 +1,6 @@
 /*フォント、文字サイズ、中央ぞろえ*/
 *{
-  font-family:"Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体";
+  font-family:"Noto Sans JP";
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
@@ -79,6 +79,9 @@ header {
   display: inline-block;
   margin: 0 20px;
 }
+
+.nav-list a{
+  border
 
 /*フッター*/
 footer{
