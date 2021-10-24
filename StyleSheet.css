@@ -108,6 +108,7 @@ footer{
   border-radius:10px;
   padding: 20px;
   transition: box-shadow 0.3s;
+  
 }
 
 .diary-box:hover {
