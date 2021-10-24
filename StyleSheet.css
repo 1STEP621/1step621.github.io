@@ -102,6 +102,24 @@ footer{
   opacity: 0.8;
 }
 
+/*diary-box体裁*/
+.diary-box {
+  box-shadow: 0 0 5px var(--primary-deep);
+  border-radius:10px;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.diary-box:hover {
+  box-shadow: 0 0 15px var(--primary-deep);
+}
+
+.diary-box time {
+  font-size: 17px;
+  color: #a7a7a7;
+  padding: 10px 0px;
+}
+
 /*カクカクアニメーション*/
 .kakukaku {
   display: inline-block;
