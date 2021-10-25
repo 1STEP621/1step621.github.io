@@ -104,6 +104,7 @@ header {
 footer{
   background-color:var(--primary-light);
   text-align:center;
+  padding:20px 0px;
 }
 
 /*反転した時の文字色*/
@@ -124,6 +125,9 @@ footer{
 
 /*diary-box体裁*/
 .diary-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius:10px;
   padding: 20px;
