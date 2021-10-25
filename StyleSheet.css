@@ -127,6 +127,7 @@ footer{
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius:10px;
   padding: 20px;
+  margin: 20px 0px;
   transition: box-shadow 0.3s;
   cursor: pointer;
 }
