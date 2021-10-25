@@ -119,6 +119,7 @@ footer{
   font-size: 17px;
   color: #a7a7a7;
   padding: 10px 0px;
+  display: inline-block;
 }
 
 /*カクカクアニメーション*/
