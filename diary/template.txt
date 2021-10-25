@@ -1,3 +1,13 @@
+/*index.htmlに追記*/
+<a href="日付.html">
+  <div class="diary-box">
+    <h1>タイトル</h1>
+    <time>年-月-日</time>
+  </div>
+</a>
+
+
+/*日付.html*/
 <!DOCTYPE html>
 <html lang="ja">
 
