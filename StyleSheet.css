@@ -60,6 +60,19 @@ a:hover {
   }
 }
 
+/*文字装飾系*/
+.big {
+  font-size: 33px;
+}
+
+.delete {
+  text-decoration: line-through;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 /*ヘッダー*/
 header {
   width: 100%;
