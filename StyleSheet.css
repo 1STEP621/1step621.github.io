@@ -30,13 +30,13 @@ h1{
 h1:not(.header-title) {
   padding-left: 10px;
   border-left: double 9px var(--primary-deep);
+  margin: 20px 0px;
 }
 
 p{
   font-size: 17px;
   line-height: 3em;
   margin:0px;
-  padding:1.5em 0px;
 }
 
 a{
