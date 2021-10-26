@@ -1,30 +1,28 @@
 /*フォント、文字サイズ、中央ぞろえ*/
-*{
-  font-family:"Noto Sans JP";
+* {
+  font-family: "Noto Sans JP";
   /*禁則処理*/
   word-break: keep-all;
   line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  
-  --primary-deep:#4e7682;
-  --primary-light:#eaf7fb;
-  --theme-color:#8daeb8;
-  --white:#ffffff;
-  --black:#333333;
-  
-  color:var(--black);
+  --primary-deep: #4e7682;
+  --primary-light: #eaf7fb;
+  --theme-color: #8daeb8;
+  --white: #ffffff;
+  --black: #333333;
+  color: var(--black);
 }
 
-body{
-  margin:0px;
-  background-color:var(--white);
+body {
+  margin: 0px;
+  background-color: var(--white);
 }
 
-h1{
+h1 {
   font-size: 30px;
   font-weight: 700;
-  margin:0px;
+  margin: 0px;
 }
 
 h1:not(.header-title) {
@@ -33,19 +31,26 @@ h1:not(.header-title) {
   margin: 20px 0px;
 }
 
-p{
-  font-size: 17px;
-  line-height: 3em;
-  margin:0px;
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  border-bottom: solid 1.5px var(--primary-deep);
 }
 
-a{
-  color:var(--primary-deep);
-  text-decoration:none;
+p {
+  font-size: 17px;
+  line-height: 3em;
+  margin: 0px;
+}
+
+a {
+  color: var(--primary-deep);
+  text-decoration: none;
 }
 
 a:hover {
-  color:var(--black);
+  color: var(--black);
 }
 
 time {
@@ -55,15 +60,15 @@ time {
   display: inline-block;
 }
 
-.wrapper{
-  margin:0 auto;
-  width:35em;
-  padding:15px;
+.wrapper {
+  margin: 0 auto;
+  width: 35em;
+  padding: 15px;
 }
 
-@media screen and (max-width:37em){
-  .wrapper{
-    width:calc(100% - 30px);
+@media screen and (max-width:37em) {
+  .wrapper {
+    width: calc(100% - 30px);
   }
 }
 
@@ -83,14 +88,14 @@ time {
 /*ヘッダー*/
 header {
   width: calc(100% - 40px);
-  text-align:center;
-  background-color:var(--primary-light);
-  padding:20px;
+  text-align: center;
+  background-color: var(--primary-light);
+  padding: 20px;
 }
 
 .nav-list {
-  font-size:17px;
-  padding:0px;
+  font-size: 17px;
+  padding: 0px;
   margin: 10px 0px 0px 0px;
 }
 
@@ -101,11 +106,11 @@ header {
 }
 
 /*フッター*/
-footer{
+footer {
   width: calc(100% - 40px);
-  text-align:center;
-  background-color:var(--primary-light);
-  padding:20px;
+  text-align: center;
+  background-color: var(--primary-light);
+  padding: 20px;
 }
 
 /*反転した時の文字色*/
@@ -115,12 +120,13 @@ footer{
 }
 
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
-.projects img{
+.projects img {
   border-radius: 6px;
-  width:100%;
+  width: 100%;
   transition: all 0.3s ease 0s;
 }
-.projects :hover img{
+
+.projects :hover img {
   opacity: 0.8;
 }
 
@@ -131,10 +137,10 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   box-shadow: 0 0 5px var(--primary-deep);
-  border-radius:10px;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px 0px;
-  transition: box-shadow 0.3s,background-color 0.3s;
+  transition: box-shadow 0.3s, background-color 0.3s;
   cursor: pointer;
 }
 
@@ -147,11 +153,16 @@ footer{
 .kakukaku {
   display: inline-block;
   animation: kakukaku .1s infinite;
-  animation-timing-function:steps(2);
-  animation-duration:1s;
+  animation-timing-function: steps(2);
+  animation-duration: 1s;
 }
 
 @keyframes kakukaku {
-  0% {transform: translate(0px, 0px)}
-  100% {transform: translate(50px, 0px)}
+  0% {
+    transform: translate(0px, 0px)
+  }
+
+  100% {
+    transform: translate(50px, 0px)
+  }
 }
