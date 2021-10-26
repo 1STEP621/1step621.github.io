@@ -34,7 +34,7 @@ h1:not(.header-title) {
 h2 {
   font-size: 30px;
   font-weight: 700;
-  margin: 0px;
+  margin: 20px 0px;
   border-bottom: solid 1.5px var(--primary-deep);
 }
 
