@@ -82,10 +82,10 @@ time {
 
 /*ヘッダー*/
 header {
-  width: 100%;
+  width: calc(100% - 40px);
   text-align:center;
   background-color:var(--primary-light);
-  padding:20px 0px;
+  padding:20px;
 }
 
 .nav-list {
@@ -102,9 +102,10 @@ header {
 
 /*フッター*/
 footer{
-  background-color:var(--primary-light);
+  width: calc(100% - 40px);
   text-align:center;
-  padding:20px 0px;
+  background-color:var(--primary-light);
+  padding:20px;
 }
 
 /*反転した時の文字色*/
@@ -128,6 +129,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius:10px;
   padding: 20px;
