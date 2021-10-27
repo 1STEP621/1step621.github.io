@@ -1,11 +1,6 @@
 /*フォント、文字サイズ、中央ぞろえ*/
 * {
   font-family: "Noto Sans JP";
-  /*禁則処理*/
-  word-break: keep-all;
-  line-break: strict;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
   --primary-deep: #4e7682;
   --primary-light: #eaf7fb;
   --theme-color: #8daeb8;
@@ -32,14 +27,14 @@ h1:not(.header-title) {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   margin: 20px 0px;
   border-bottom: solid 1.5px var(--primary-deep);
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   margin: 20px 0px;
   border-bottom: dashed 1.5px var(--primary-deep);
@@ -154,10 +149,6 @@ footer {
 .diary-box:hover {
   box-shadow: 0 0 15px var(--primary-deep);
   background-color: var(--primary-light);
-}
-
-.diary-box * {
-  min-width: 0;
 }
 
 /*カクカクアニメーション*/
