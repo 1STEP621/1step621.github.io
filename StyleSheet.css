@@ -156,6 +156,10 @@ footer {
   background-color: var(--primary-light);
 }
 
+.diary-box * {
+  min-width: 0;
+}
+
 /*カクカクアニメーション*/
 .kakukaku {
   display: inline-block;
