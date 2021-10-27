@@ -28,7 +28,9 @@
 <body>
   <div id="header"></div>
   <div class="wrapper">
-    <!-- 本文ここから -->
+    <h1><!-- タイトル --></h1>
+    <p><!-- 本文 --></p>
+    <time><!-- 日付 --></time>
   </div>
   <div id="footer"></div>
 </body>
