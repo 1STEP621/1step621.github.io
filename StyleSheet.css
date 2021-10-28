@@ -62,6 +62,10 @@ time {
   display: inline-block;
 }
 
+img {
+  max-width: 100%;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 35em;
