@@ -9,6 +9,11 @@
   color: var(--black);
 }
 
+a:focus-visible {
+  outline: dashed 1px var(--primary-deep);
+  border-radius: 3px;
+}
+
 body {
   margin: 0px;
   background-color: var(--white);
