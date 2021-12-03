@@ -159,7 +159,7 @@ footer p {
   flex-wrap: wrap;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
-  padding: 20px;
+  padding: 25px;
   margin-bottom: 20px;
   transition: box-shadow 0.3s, background-color 0.3s;
   cursor: pointer;
