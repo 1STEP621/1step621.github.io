@@ -9,7 +9,7 @@
   color: var(--black);
 }
 
-a:focus-visible {
+*:focus-visible {
   outline: dashed 2px var(--primary-deep);
   border-radius: 3px;
 }
@@ -139,6 +139,14 @@ footer {
 
 .projects :hover img {
   opacity: 0.8;
+}
+
+/*text-box*体裁/
+.text-box {
+  background: var(--primary-light);
+  border: solid 2px var(--primary-deep);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /*diary-box体裁*/
