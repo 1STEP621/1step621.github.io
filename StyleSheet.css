@@ -62,7 +62,7 @@ a:hover {
 time {
   font-size: 17px;
   color: #a7a7a7;
-  margin: 20px 0px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -171,7 +171,7 @@ footer p {
 }
 
 .diary-box * {
-  margin: 0px;
+  margin: 10px 0px;
 }
 
 /*カクカクアニメーション*/
