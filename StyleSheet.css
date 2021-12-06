@@ -22,12 +22,12 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
-h1:not(.header-title) {
+h1:not(.page-title-text) {
   padding-left: 10px;
   border-left: double 9px var(--primary-deep);
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -111,7 +111,28 @@ header {
 .nav-list-item {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 10px;
+  border: solid 1px var(--primary-deep);
+  border-radius: 10px;
+  color: var(--primary-deep);
+  padding: 6px;
+  transition: background-color .3s, color .3s;
+}
+
+.nav-list-item:hover {
+  color: var(--white);
+  background-color: var(--primary-deep);
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title-text {
+  margin-left: 10px;
 }
 
 /*フッター*/
