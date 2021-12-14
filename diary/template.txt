@@ -17,7 +17,7 @@
   <!-- ここにも忘れずタイトルを記入 -->
   <title>タイトル | 1STEP621のホームページ</title>
   <link rel="stylesheet" href="https://1step621.github.io/StyleSheet.css">
-  <link rel="icon" type="image/x-icon" href="assets/1step621_icon.png">
+  <link rel="icon" type="image/x-icon" href="https://1step621.github.io/assets/1step621_icon.png">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https:https://1step621.github.io/JavaScript.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
