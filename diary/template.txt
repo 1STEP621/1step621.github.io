@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://1step621.github.io/StyleSheet.css">
   <link rel="icon" type="image/x-icon" href="https://1step621.github.io/assets/1step621_icon.png">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https:https://1step621.github.io/JavaScript.js"></script>
+  <script src="https://1step621.github.io/JavaScript.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
