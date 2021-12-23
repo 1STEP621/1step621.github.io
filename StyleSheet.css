@@ -172,8 +172,8 @@ footer p {
   border-radius: 10px;
 }
 
-/*diary-box体裁*/
-.diary-box {
+/*link-box体裁*/
+.link-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -186,12 +186,12 @@ footer p {
   cursor: pointer;
 }
 
-.diary-box:hover {
+.link-box:hover {
   box-shadow: 0 0 15px var(--primary-deep);
   background-color: var(--primary-light);
 }
 
-.diary-box * {
+.link-box * {
   margin: 10px 0px;
 }
 
