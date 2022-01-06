@@ -147,11 +147,6 @@ footer p {
   margin: 0px;
 }
 
-/*ファーストビュー*/
-.first-view video {
-  width: 100%;
-}
-
 /*反転した時の文字色*/
 ::selection {
   background: var(--theme-color);
