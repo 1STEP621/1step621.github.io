@@ -88,6 +88,9 @@ img {
   font-size: 33px;
 }
 
+.small {
+  font-size: 14px;
+
 .delete {
   text-decoration: line-through;
 }
