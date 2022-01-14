@@ -1,12 +1,15 @@
 /*フォント、文字サイズ、中央ぞろえ*/
-* {
-  font-family: "Noto Sans JP";
-  margin: 0px;
+:root {
   --primary-deep: #4e7682;
   --primary-light: #eaf7fb;
   --theme-color: #8daeb8;
   --white: #ffffff;
   --black: #333333;
+}
+
+* {
+  font-family: "Noto Sans JP";
+  margin: 0px;
   color: var(--black);
 }
 
