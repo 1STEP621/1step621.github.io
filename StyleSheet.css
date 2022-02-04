@@ -201,6 +201,7 @@ footer p {
 
 .link-box * {
   margin: 10px 0px;
+  font-weight: initial;
 }
 
 /*カクカクアニメーション*/
