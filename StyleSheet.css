@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 h1:not(.page-title-text) {
@@ -35,14 +35,14 @@ h1:not(.page-title-text) {
 
 h2 {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 20px;
   border-bottom: solid 1.5px var(--primary-deep);
 }
 
 h3 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 20px;
   border-bottom: dashed 1.5px var(--primary-deep);
 }
@@ -56,7 +56,7 @@ p {
 a {
   color: var(--primary-deep);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 a:hover {
@@ -68,6 +68,7 @@ time {
   color: #a7a7a7;
   margin-bottom: 20px;
   display: inline-block;
+  font-weight: normal;
 }
 
 img {
@@ -100,7 +101,7 @@ img {
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /*ヘッダー*/
@@ -201,7 +202,6 @@ footer p {
 
 .link-box * {
   margin: 10px 0px;
-  font-weight: initial;
 }
 
 /*カクカクアニメーション*/
