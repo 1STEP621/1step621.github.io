@@ -163,14 +163,21 @@ footer p {
 }
 
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
-.projects img {
-  border-radius: 6px;
-  width: 100%;
-  transition: all 0.3s ease 0s;
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
+    
+.project {
+  width: 100%;
+  box-shadow: 0 0 5px var(--primary-deep);
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+ }
 
-.projects :hover img {
-  opacity: 0.8;
+.project:hover {
+  box-shadow: 0 0 15px var(--primary-deep);
 }
 
 /*text-box*体裁*/
