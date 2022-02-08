@@ -19,4 +19,5 @@ https://ai-create.net/blog/2019/08/28/%E3%80%90%E6%B8%B8%E3%82%B4%E3%82%B7%E3%83
 https://qiita.com/mpyw/items/dfc63c1fed5dfc5eda26  
 https://imasara-blog.com/post-2037/#Wayback_Machine-2  
 https://zbnr-hp.com/archiveis-block  
+https://naeco.jp/iframe-responsive  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
