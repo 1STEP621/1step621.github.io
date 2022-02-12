@@ -167,7 +167,7 @@ footer p {
 /*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
   gap: 20px;
 }
     
