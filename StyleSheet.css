@@ -12,6 +12,7 @@
   font-family: "Noto Sans JP";
   margin: 0px;
   color: var(--black);
+  word-break: break-all;
 }
 
 *:focus-visible {
