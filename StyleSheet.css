@@ -263,16 +263,16 @@ iframe {
   display: inline-flex;
   justify-content: center;
   border-radius: 10px;
-  border: solid 5px #00000000;
-  transition: border .3s;
-  color: white !important;
-  padding: 10px;
+  box-shadow: 0 0 0px #00000020;
+  transition: box-shadow .3s;
+  color: var(--white) !important;
+  padding: 15px;
   margin: 10px 0px;
   background-color: var(--primary-deep);
 }
 
 .button:hover {
-  border: solid 5px #00000020;
+  box-shadow: 0 0 5px #00000020;
 }
 
 .button[href*="scratch.mit.edu"] {
