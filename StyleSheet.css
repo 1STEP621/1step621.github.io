@@ -185,8 +185,8 @@ footer p {
 
 /*プロジェクトページ用*/
 .iframe-wrapper {
-  width: calc(100vmin - 20px);
-  height: 75vmin;
+  width: calc(min(90vw, 120vh) - 10px);
+  height: calc(min(67vw, 90vh) - 10px);
   margin: auto;
 }
 
