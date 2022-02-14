@@ -165,7 +165,7 @@ footer p {
   color: var(--white);
 }
 
-/*プロジェクト画像の角丸、マウスホバー時のアニメーション*/
+/*プロジェクト一覧用*/
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
@@ -177,10 +177,36 @@ footer p {
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
   transition: box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
  }
 
 .project:hover {
   box-shadow: 0 0 15px var(--primary-deep);
+}
+
+.project img {
+  width: 100%;
+}
+
+.project p {
+  display: block;
+  position: absolute;
+  user-select: none;
+  opacity: 0;
+  bottom: 0;
+  transition: opacity 0.3s;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  box-sizing: border-box;
+  padding-right: 10px;
+  background: linear-gradient(#00000000 0%, #00000040 60%);
+  color: var(--white);
+}
+
+.project:hover p {
+  opacity: 1;
 }
 
 /*プロジェクトページ用*/
