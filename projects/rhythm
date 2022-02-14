@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imaginary World Adventure | 1STEP621のホームページ</title>
+  <link rel="stylesheet" href="https://1step621.github.io/StyleSheet.css">
+  <link rel="icon" type="image/x-icon" href="https://1step621.github.io/assets/1step621_icon.png">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://1step621.github.io/JavaScript.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="iframe-wrapper">
+    <iframe src="https://turbowarp.org/527793341/embed?interpolate"></iframe>
+  </div>
+  <div class="wrapper">
+    <div class="buttons">
+      <a href="https://turbowarp.org/527793341/embed?interpolate" class="button">全画面で見る</a>
+      <a href="https://scratch.mit.edu/projects/527793341/" class="button">Scratchで見る</a>
+    </div>
+    <div class="caption">
+      <p>D、F、J、Kまたはタップで操作できます<br>
+        【水色ノーツ】<br>
+        直進する。<br>
+        【紫色ノーツ】<br>
+        右や左のレーンに突然ずれる。<br>
+        【橙色ノーツ】<br>
+        獲得できるポイントが2倍になる。</p>
+    </div>
+  </div>
+  <div id="footer"></div>
+</body>
+
+</html>
