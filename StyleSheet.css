@@ -13,7 +13,6 @@
   font-family: "Noto Sans JP";
   margin: 0px;
   color: var(--black);
-  word-break: break-all;
 }
 
 *:focus-visible {
@@ -60,6 +59,7 @@ a {
   color: var(--primary-deep);
   text-decoration: none;
   font-weight: bold;
+  word-break: break-all;
 }
 
 a:hover {
