@@ -13,9 +13,10 @@
   font-family: "Noto Sans JP";
   margin: 0px;
   color: var(--black);
+  scroll-behavior: smooth;
 }
 
-*:focus-visible {
+a:focus-visible {
   outline: dashed 2px var(--primary-deep);
   border-radius: 3px;
 }
