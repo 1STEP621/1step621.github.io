@@ -213,8 +213,8 @@ footer p {
 
 /*プロジェクトページ用*/
 .iframe-wrapper {
-  width: min(90vw, calc(90vw * (240 / 180)));
-  height: min(calc(90vh / (240 / 180)), 90vh);
+  width: min(90vw, calc(90vh * (240 / 180)));
+  height: min(calc(90vw / (240 / 180)), 90vh);
   margin: auto;
 }
 
