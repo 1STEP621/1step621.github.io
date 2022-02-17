@@ -214,8 +214,8 @@ footer p {
 /*プロジェクトページ用*/
 .iframe-wrapper {
   --ratio: calc(240 / 180);
-  --width: min(95vw, calc(95vh * var(--ratio)));
-  --height: calc(min(calc(95vw / var(--ratio)), 95vh) + 44px);
+  --width: min(95vw, calc(93vh * var(--ratio)));
+  --height: calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
   
   width: var(--width);
   height: var(--height);
