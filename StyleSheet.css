@@ -255,12 +255,9 @@ iframe {
 }
 
 .buttons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
-  width: 100%;
-}
-
-.buttons * {
   width: 100%;
 }
 
