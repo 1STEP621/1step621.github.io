@@ -57,6 +57,7 @@ p {
 }
 
 a {
+  display: inline-block;
   color: var(--primary-deep);
   text-decoration: none;
   font-weight: bold;
