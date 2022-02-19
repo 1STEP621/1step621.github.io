@@ -149,15 +149,6 @@ header {
   margin-left: 10px;
 }
 
-.loading {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  background-color: #ff0000;
-  display: none;
-}
-
 /*フッター*/
 footer {
   width: calc(100% - 40px);
