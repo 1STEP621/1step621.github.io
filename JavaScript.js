@@ -1,5 +1,5 @@
-$(function() {
-  $ajax.({
+$(function(){
+  $.ajax({
     type: "GET",
     url: "https://1step621.github.io/head.html",
     dataType: "html"
