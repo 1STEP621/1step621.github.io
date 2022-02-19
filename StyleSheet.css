@@ -292,6 +292,10 @@ iframe {
   margin: 10px 0px;
 }
 
+.diary-box a {
+  display: block;
+}
+
 /*ボタン体裁*/
 .button {
   display: inline-flex;
