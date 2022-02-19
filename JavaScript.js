@@ -9,8 +9,8 @@ $(function(){
     $("head").prepend(contents);
   })
   .always(function(contents){
-    setTimeOut(function(){
-      $(".loading").css("display","none");
+    setTimeout(function(){
+      $(".loading").css("display","");
     },1000);
   });
   $("#header").load("https://1step621.github.io/header.html");
