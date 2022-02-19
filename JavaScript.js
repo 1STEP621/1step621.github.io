@@ -7,6 +7,8 @@ $(function(){
   })
   .done(function(contents){
     $("head").prepend(contents);
+  })
+  .always(function(contents){
     $(".loading").css("display","none");
   });
   $("#header").load("https://1step621.github.io/header.html");
