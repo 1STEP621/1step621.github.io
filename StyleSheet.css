@@ -256,7 +256,7 @@ iframe {
 
 .buttons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 10px;
   width: 100%;
 }
@@ -292,7 +292,7 @@ iframe {
   margin: 10px 0px;
 }
 
-.diary-boxes a {
+.diary-box a {
   display: block;
 }
 
@@ -305,7 +305,6 @@ iframe {
   transition: box-shadow .3s;
   color: var(--white) !important;
   padding: 15px;
-  margin: 10px 0px;
   background-color: var(--primary-deep);
 }
 
