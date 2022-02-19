@@ -9,7 +9,9 @@ $(function(){
     $("head").prepend(contents);
   })
   .always(function(contents){
-    $(".loading").css("display","none");
+    setTimeOut(function(){
+      $(".loading").css("display","none");
+    },1000);
   });
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
