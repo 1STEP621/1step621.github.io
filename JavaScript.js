@@ -1,5 +1,5 @@
 $(function(){
-  $("body").prepend(<div id="loading"></div>);
+  $("body").prepend("<div id="loading"></div>");
   $("#loading").css("display","block");
   $.ajax({
     type: "GET",
