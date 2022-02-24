@@ -14,6 +14,6 @@ $(function(){
     })
     .done(function(){
       $("#loading").css("display","none");
-    })
+    });
   })
 });
