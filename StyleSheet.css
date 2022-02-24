@@ -161,6 +161,14 @@ footer p {
   margin: 0px;
 }
 
+/*ロード画面*/
+#loading {
+  background-color: var(--white);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
 /*反転した時の文字色*/
 ::selection {
   background: var(--theme-color);
