@@ -4,6 +4,7 @@ $(function(){
   $.fileLoad();
   setTimeOut(function(){
     $("#loading").css("display","none");
+    console.log("test")
   },1000);
 });
 
