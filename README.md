@@ -22,4 +22,8 @@ https://zbnr-hp.com/archiveis-block
 https://naeco.jp/iframe-responsive  
 https://www.fenet.jp/dotnet/column/%E8%A8%80%E8%AA%9E%E3%83%BB%E7%92%B0%E5%A2%83/7601/  
 https://teratail.com/questions/167427  
+https://on-ze.com/archives/7778  
+https://black-flag.net/jquery/20110405-2878.html  
+https://www.fenet.jp/dotnet/column/language/6626/  
+https://www.sejuku.net/blog/46746  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
