@@ -15,7 +15,7 @@ var loadFile = function() {
     console.log("load")
   )
   .done(function() {
-    setTimeOut(function() {
+    setTimeout(function() {
       $("#loading").css("display", "none");
       console.log("end");
     },500);
