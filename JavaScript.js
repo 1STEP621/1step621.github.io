@@ -15,8 +15,10 @@ var loadFile = function() {
     console.log("load")
   )
   .done(function() {
-    $("#loading").css("display", "none");
-    console.log("end");
+    setTimeOut(function() {
+      $("#loading").css("display", "none");
+      console.log("end");
+    },500);
   });
 };
 
