@@ -18,7 +18,7 @@ var loadFile = function() {
     setTimeout(function() {
       $("#loading").css("display", "none");
       console.log("end");
-    },500);
+    },100);
   });
 };
 
