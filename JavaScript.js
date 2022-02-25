@@ -11,12 +11,14 @@ var loadStart = function() {
     });
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
+  console.log("load");
 }
 
 var load = function() {
   $.when(loadStart())
   .done(function() {
     $("#loading").css("display", "none");
+    console.log("end");
   });
 };
 
