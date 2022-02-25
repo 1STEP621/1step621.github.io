@@ -1,7 +1,6 @@
 var loadFile = function() {
   $.when(
     $("body").prepend('<div id="loading" style="background-color: var(--white); width: 100%; height: 100vh; position: fixed;"></div>'),
-    $("#loading").css("display", "block"),
     $.ajax({
       type: "GET",
       url: "https://1step621.github.io/head.html",
@@ -16,7 +15,7 @@ var loadFile = function() {
   )
   .done(function() {
     setTimeout(function() {
-      $("#loading").css("display", "none");
+      $("#loading").remove();
       console.log("end");
     },100);
   });
