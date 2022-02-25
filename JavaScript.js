@@ -1,4 +1,4 @@
-function loadFile() {
+var loadStart = function() {
   $("body").prepend('<div id="loading" style="background-color: var(--white); width: 100%; height: 100vh; position: fixed;"></div>');
   $("#loading").css("display", "block");
   $.ajax({
@@ -11,12 +11,15 @@ function loadFile() {
     });
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
-  return loadEnd();
 }
-.then(function loadEnd() {
-  $("#loading").css("display", "none");
-});
+
+var load = function() {
+  $.when(loadStart())
+  .done(function() {
+    $("#loading").css("display", "none");
+  });
+};
 
 $(function() {
-  loadFile();
+  load();
 });
