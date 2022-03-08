@@ -26,4 +26,5 @@ https://on-ze.com/archives/7778
 https://black-flag.net/jquery/20110405-2878.html  
 https://www.fenet.jp/dotnet/column/language/6626/  
 https://www.sejuku.net/blog/46746  
+https://developer.mozilla.org/ja/docs/Web/CSS/text-overflow  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
