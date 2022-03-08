@@ -206,9 +206,12 @@ footer p {
   text-align: right;
   margin: 0;
   box-sizing: border-box;
-  padding-right: 15px;
+  padding: 0px 15px;
   background: #00000040;
   color: var(--white);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .project:hover p {
@@ -277,7 +280,6 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
   padding: 25px;
@@ -293,6 +295,13 @@ iframe {
 
 .diary-box * {
   margin: 10px 0px;
+}
+
+.diary-box h1 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 77%;
+  overflow: hidden;
 }
 
 .diary-boxes a {
