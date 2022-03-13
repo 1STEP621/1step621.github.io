@@ -280,6 +280,7 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
   padding: 25px;
@@ -303,7 +304,8 @@ iframe {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  flex: 1;
+  flex: 1 200px;
+  margin: 0;
 }
 
 .diary-boxes a {
