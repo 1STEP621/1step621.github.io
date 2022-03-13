@@ -279,11 +279,12 @@ iframe {
 .diary-box {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
-  padding: 25px;
+  padding: 30px;
   margin-bottom: 20px;
   transition: box-shadow 0.3s, background-color 0.3s;
   cursor: pointer;
@@ -297,7 +298,7 @@ iframe {
 .diary-box time {
   display: block;
   width: 90px;
-  margin: 10px 0px;
+  margin: auto;
 }
 
 .diary-box h1 {
