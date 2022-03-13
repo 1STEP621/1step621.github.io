@@ -293,15 +293,17 @@ iframe {
   background-color: var(--primary-light);
 }
 
-.diary-box * {
+.diary-box time {
+  display: block;
+  width: 90px;
   margin: 10px 0px;
 }
 
 .diary-box h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 77%;
   overflow: hidden;
+  flex: 1;
 }
 
 .diary-boxes a {
