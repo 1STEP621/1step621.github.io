@@ -281,7 +281,7 @@ iframe {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
   padding: 30px;
