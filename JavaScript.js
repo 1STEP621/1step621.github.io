@@ -9,11 +9,15 @@ var loadFile = function() {
     dataType: "html"
   })
   .done(function(contents){
-    $("head").prepend(contents);
-    $("#loading").remove();
-    console.log("end");
+    $.when(function(){
+      $("head").prepend(contents)
+    })
+    .done(function(){
+      $("#loading").remove();
+      console.log("end");
+    });
   });
-}
+};
 
 $(function() {
   loadFile();
