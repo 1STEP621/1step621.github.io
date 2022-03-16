@@ -1,4 +1,5 @@
 var loadFile = function() {
+  var index = 0;
   $("body").prepend('<div id="loading" style="background-color: var(--white); width: 100%; height: 100vh; position: fixed; z-index: 9999;"></div>');
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
@@ -8,10 +9,12 @@ var loadFile = function() {
     url: "https://1step621.github.io/head.html",
     dataType: "html"
   })
-  .done(function(contents){
-    $.when(function(){
-      $("head").prepend(contents)
-    })
+  .done(function(result){
+    index = result;
+    console.log(index);
+    $.when(
+      $("head").prepend(index)
+    )
     .done(function(){
       $("#loading").remove();
       console.log("end");
