@@ -196,7 +196,7 @@ footer p {
 
 .project img {
   width: 100%;
-  margin-bottom: -5px;
+  vertical-align: middle;
 }
 
 .project p {
