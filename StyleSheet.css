@@ -104,7 +104,7 @@ img {
 .small {
   font-size: 14px;
 }
- 
+
 .delete {
   text-decoration: line-through;
 }
@@ -180,7 +180,7 @@ footer p {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-    
+
 .project {
   width: 100%;
   box-shadow: 0 0 5px var(--primary-deep);
@@ -188,7 +188,7 @@ footer p {
   transition: box-shadow 0.3s;
   position: relative;
   overflow: hidden;
- }
+}
 
 .project:hover {
   box-shadow: 0 0 15px var(--primary-deep);
@@ -227,12 +227,10 @@ footer p {
   --ratio: calc(240 / 180);
   --width: min(95vw, calc(93vh * var(--ratio)));
   --height: calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
-  
   width: var(--width);
   height: var(--height);
   max-width: 800px;
   max-height: calc(800px / var(--ratio) + 44px);
-    
   margin: auto;
   user-select: none;
 }
@@ -315,6 +313,31 @@ iframe {
 
 .diary-boxes a {
   display: block;
+}
+
+/*トップ画像アニメーション*/
+.top-image {
+  width: 35em;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.top-image svg {
+  stroke-dasharray: 1000 1000;
+  stroke-dashoffset: -800;
+  animation: appear 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  0% {
+    stroke-dashoffset: -800;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 /*ボタン体裁*/
