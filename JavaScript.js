@@ -2,7 +2,6 @@ var loadFile = function() {
   var index = 0;
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
-  $("head style").remove()
   console.log("load");
   $.ajax({
     type: "GET",
@@ -16,7 +15,7 @@ var loadFile = function() {
       $("head").prepend(index)
     )
     .done(function(){
-      $("#loading").remove();
+      $(".loading").remove()
       console.log("end");
     });
   });
