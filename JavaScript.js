@@ -1,5 +1,5 @@
 var loadFile = function() {
-  var index = 0;
+  var content = 0;
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
   console.log("load");
@@ -9,15 +9,16 @@ var loadFile = function() {
     dataType: "html"
   })
   .done(function(result){
-    index = result;
-    console.log(index);
-    $.when(
-      $("head").prepend(index)
-    )
-    .done(function(){
-      $(".loading").remove()
-      console.log("end");
-    });
+    setTimeout(function(){
+      content = result;
+      console.log(content);
+      $.when(
+        $("head").prepend(content)
+      )
+      .done(function(){
+        console.log("end");
+      });
+    },1000);
   });
 };
 
