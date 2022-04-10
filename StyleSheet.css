@@ -259,11 +259,6 @@ iframe {
   padding: 0;
 }
 
-.caption p {
-  font-size: 15px;
-  line-height: 2em;
-}
-
 .caption * {
   margin: 0;
 }
@@ -355,6 +350,7 @@ iframe {
   transition: box-shadow .3s;
   color: var(--white) !important;
   padding: 15px;
+  line-height: 2.5em;
   background-color: var(--primary-deep);
 }
 
