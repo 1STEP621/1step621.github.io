@@ -351,6 +351,7 @@ iframe {
   color: var(--white) !important;
   padding: 15px;
   line-height: 1.5em;
+  margin-bottom: 0;
   background-color: var(--primary-deep);
 }
 
