@@ -58,6 +58,10 @@ p,a {
   margin-bottom: 20px;
 }
 
+p>a {
+  display: inline;
+}
+
 a {
   color: var(--primary-deep);
   text-decoration: none;
