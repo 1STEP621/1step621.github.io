@@ -183,6 +183,7 @@ footer p {
 }
 
 .project {
+  display: inline-block;
   width: 100%;
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
