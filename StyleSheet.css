@@ -305,6 +305,7 @@ iframe {
 }
 
 .diary-box h1 {
+  color: (--black);
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -320,11 +321,11 @@ iframe {
 .top-image {
   width: 35em;
   max-width: 90%;
-  margin: auto;
-  padding-top: 10px;
+  margin: 10px auto;
 }
 
 .top-image svg {
+  stroke: var(--black);
   stroke-dasharray: 1000 1000;
   stroke-dashoffset: -800;
   animation: appear 3s;
