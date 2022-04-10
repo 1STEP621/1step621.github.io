@@ -350,7 +350,7 @@ iframe {
   transition: box-shadow .3s;
   color: var(--white) !important;
   padding: 15px;
-  line-height: 2.5em;
+  line-height: 1.5em;
   background-color: var(--primary-deep);
 }
 
