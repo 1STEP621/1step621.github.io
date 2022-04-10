@@ -51,7 +51,8 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
-p {
+p,a {
+  display: block;
   font-size: 17px;
   line-height: 3em;
   margin-bottom: 20px;
@@ -199,7 +200,7 @@ footer p {
   vertical-align: middle;
 }
 
-.project p {
+.project span {
   display: block;
   position: absolute;
   user-select: none;
@@ -218,7 +219,7 @@ footer p {
   overflow: hidden;
 }
 
-.project:hover p {
+.project:hover span {
   bottom: 0px;
 }
 
