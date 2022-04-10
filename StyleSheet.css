@@ -51,18 +51,18 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
-p,a {
-  display: block;
+p,a { 
   font-size: 17px;
   line-height: 2.5em;
   margin-bottom: 20px;
 }
 
-p>a {
-  display: inline;
+p {
+  display: block;
 }
 
 a {
+  display: inline;
   color: var(--primary-deep);
   text-decoration: none;
   font-weight: bold;
