@@ -73,8 +73,8 @@ a:hover {
   color: var(--black);
 }
 
-a * {
-  color: initial;
+div>a {
+  margin: 0;
 }
 
 time {
@@ -305,7 +305,7 @@ iframe {
 }
 
 .diary-box h1 {
-  color: (--black);
+  color: var(--black);
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
