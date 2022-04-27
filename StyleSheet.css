@@ -235,7 +235,6 @@ footer p {
   padding: 15px;
   background-color: var(--primary-light);
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .works #projects {
@@ -259,6 +258,13 @@ footer p {
   100% {
     margin-left: 0px;
   }
+}
+
+.seemore {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
 }
 
 /*プロジェクトページ用*/
