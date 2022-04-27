@@ -51,7 +51,7 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
-p,a { 
+p, a {
   font-size: 17px;
   line-height: 2.5em;
   margin-bottom: 20px;
@@ -226,6 +226,39 @@ footer p {
 
 .project:hover span {
   bottom: 0px;
+}
+
+/*トップページ版プロジェクト一覧用*/
+.works {
+  display: flex;
+  overflow: hidden;
+  padding: 15px;
+  background-color: var(--primary-light);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.works #projects {
+  display: flex;
+  animation: slideshow 10s infinite;
+}
+
+.works .project {
+  width: 200px;
+}
+
+@keyframes slideshow {
+  0% {
+    margin-left: 0px;
+  }
+
+  80% {
+    margin-left: -300px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
 }
 
 /*プロジェクトページ用*/
