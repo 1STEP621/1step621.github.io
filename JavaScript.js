@@ -2,6 +2,7 @@ var loadFile = function() {
   var content = 0;
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
+  $(".projects").load("https://1step621.github.io/list.html");
   console.log("load");
   $.ajax({
     type: "GET",
