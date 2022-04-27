@@ -181,7 +181,7 @@ footer p {
 }
 
 /*プロジェクト一覧用*/
-.projects {
+#projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
