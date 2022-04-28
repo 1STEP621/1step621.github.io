@@ -57,11 +57,10 @@ h3 {
 p, a {
   font-size: 17px;
   line-height: 2.5em;
-  margin-bottom: 20px;
 }
 
 p {
-  display: block;
+  margin-bottom: 20px;
 }
 
 a {
@@ -70,14 +69,11 @@ a {
   text-decoration: none;
   font-weight: bold;
   word-break: break-all;
+  margin: 0;
 }
 
 a:hover {
   color: var(--black);
-}
-
-div>a {
-  margin: 0;
 }
 
 time {
