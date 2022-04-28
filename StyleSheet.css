@@ -286,10 +286,9 @@ footer p {
 }
 
 .seemore {
-  display: block;
-  width: 100%;
-  text-align: right;
-  margin-bottom: 20px;
+  display: block !important;
+  width: fit-content;
+  margin: 0 0 0 auto !important;
 }
 
 /*プロジェクトページ用*/
