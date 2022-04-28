@@ -76,6 +76,10 @@ a:hover {
   color: var(--black);
 }
 
+.wrapper>a {
+  margin-bottom: 20px;
+}
+
 time {
   font-size: 17px;
   color: #a7a7a7;
