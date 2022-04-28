@@ -67,24 +67,28 @@ p {
   margin-bottom: 20px;
 }
 
+/*ボタン系リンク土台*/
 a {
   display: inline-block;
+  color: var(--black);
   text-decoration: none;
   font-weight: bold;
 }
 
+/*文の一部になっていないテキストリンク*/
 .wrapper>a {
   margin-bottom: 20px;
 }
 
-.wrapper p>a {
+/*文の一部になっているテキストリンク*/
+.wrapper p a {
   display: inline;
   color: var(--primary-deep);
   word-break: break-all;
   margin: 0;
 }
 
-.wrapper p>a:hover {
+.wrapper p a:hover {
   color: var(--black);
 }
 
