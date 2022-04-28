@@ -77,7 +77,14 @@ a {
 
 /*文の一部になっていないテキストリンク*/
 .wrapper>a {
+  display: inline;
+  color: var(--primary-deep);
+  word-break: break-all;
   margin-bottom: 20px;
+}
+
+.wrapper>a:hover {
+  color: var(--black);
 }
 
 /*文の一部になっているテキストリンク*/
