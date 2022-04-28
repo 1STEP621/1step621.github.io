@@ -18,12 +18,15 @@ a:focus-visible {
   border-radius: 3px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Noto Sans JP";
   background-color: var(--white);
   -webkit-text-size-adjust: 100%;
   color: var(--black);
-  scroll-behavior: smooth;
 }
 
 h1 {
