@@ -120,10 +120,15 @@ img {
 
 /*ヘッダー*/
 header {
+  display: flex;
   width: calc(100% - 40px);
   text-align: center;
   background-color: var(--primary-light);
   padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .nav-list {
@@ -155,7 +160,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .page-title-text {
