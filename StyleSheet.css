@@ -54,6 +54,10 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
+div {
+  box-sizing: border-box;
+}
+
 ul {
   font-size: 0;
 }
@@ -64,6 +68,7 @@ p, a {
 
 p {
   margin-bottom: 20px;
+  line-height: 2.5em;
 }
 
 a {
@@ -104,14 +109,8 @@ img {
 
 .wrapper {
   margin: 0 auto;
-  width: 35em;
+  width: min(100%, 35em);
   padding: 15px;
-}
-
-@media screen and (max-width:37em) {
-  .wrapper {
-    width: calc(100% - 30px);
-  }
 }
 
 /*文字装飾系*/
@@ -134,7 +133,7 @@ img {
 /*ヘッダー*/
 header {
   display: flex;
-  width: calc(100% - 40px);
+  width: 100%;
   text-align: center;
   background-color: var(--primary-light);
   padding: 20px;
@@ -178,7 +177,7 @@ header {
 
 /*フッター*/
 footer {
-  width: calc(100% - 40px);
+  width: 100%;
   text-align: center;
   background-color: var(--primary-light);
   padding: 20px;
@@ -257,7 +256,7 @@ footer p {
 }
 
 .works .project {
-  width: 200px;
+  width: min(50vw, 200px);
 }
 
 @keyframes slideshow {
