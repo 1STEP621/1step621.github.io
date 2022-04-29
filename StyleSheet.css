@@ -60,7 +60,6 @@ ul {
 
 p, a {
   font-size: 17px;
-  line-height: 2.5em;
 }
 
 p {
@@ -76,6 +75,7 @@ a {
 .block-link {
   display: inline-block;
   color: var(--black);
+  line-height: 1.5em;
 }
 
 /*テキストリンク*/
@@ -83,6 +83,7 @@ a:not(.block-link) {
   display: inline;
   color: var(--primary-deep);
   word-break: break-all;
+  line-height: 2.5em;
 }
 
 a:not(.block-link):hover {
@@ -148,8 +149,6 @@ header {
 }
 
 .nav-list a {
-  display: inline-block;
-  line-height: 1.5em;
   margin: 0 10px;
 }
 
@@ -354,6 +353,7 @@ iframe {
 .diary-box time {
   display: block;
   width: 90px;
+  width: fit-content;
   margin: auto;
 }
 
