@@ -85,7 +85,7 @@ a:not(.block-link) {
   word-break: break-all;
 }
 
-a:not(.block-link) {
+a:not(.block-link):hover {
   color: var(--black);
 }
 
