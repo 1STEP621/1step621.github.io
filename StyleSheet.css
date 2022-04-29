@@ -80,7 +80,6 @@ a {
 .block-link {
   display: inline-block;
   color: var(--black);
-  line-height: 1.5em;
 }
 
 /*テキストリンク*/
