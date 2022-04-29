@@ -67,35 +67,25 @@ p {
   margin-bottom: 20px;
 }
 
-/*ボタン系リンク土台*/
 a {
-  display: inline-block;
-  color: var(--black);
   text-decoration: none;
   font-weight: bold;
 }
 
-/*文の一部になっていないテキストリンク*/
-.wrapper>a {
-  display: inline;
-  color: var(--primary-deep);
-  word-break: break-all;
-  margin-bottom: 20px;
-}
-
-.wrapper>a:hover {
+/*ボタン系リンク土台*/
+.block-link {
+  display: inline-block;
   color: var(--black);
 }
 
-/*文の一部になっているテキストリンク*/
-.wrapper p a {
+/*テキストリンク*/
+:not(.button-link) {
   display: inline;
   color: var(--primary-deep);
   word-break: break-all;
-  margin: 0;
 }
 
-.wrapper p a:hover {
+:not(.button-link) {
   color: var(--black);
 }
 
