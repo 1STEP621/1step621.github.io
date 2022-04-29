@@ -54,7 +54,7 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
-div {
+div,header,footer {
   box-sizing: border-box;
 }
 
