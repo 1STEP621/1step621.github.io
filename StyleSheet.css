@@ -79,13 +79,13 @@ a {
 }
 
 /*テキストリンク*/
-:not(.button-link) {
+a:not(.block-link) {
   display: inline;
   color: var(--primary-deep);
   word-break: break-all;
 }
 
-:not(.button-link) {
+a:not(.block-link) {
   color: var(--black);
 }
 
