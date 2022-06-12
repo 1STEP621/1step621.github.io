@@ -30,4 +30,5 @@ https://developer.mozilla.org/ja/docs/Web/CSS/text-overflow
 https://wayohoo.com/article/5870  
 https://fuuno.net/ani/ani16/ani16.html  
 https://gotohayato.com/content/451/  
+https://www.sejuku.net/blog/25583  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
