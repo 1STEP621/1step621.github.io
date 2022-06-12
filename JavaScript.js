@@ -35,7 +35,6 @@ var setOgp = function() {
   $("head").append("<meta property=\"og:title\" content=\"" + title + "\">");
   $("head").append("<meta property=\"og:url\" content=\"" + url + "\">");
   $("head").append("<meta property=\"og:site_name\" content=\"1step621.github.io\">");
-  $("head").append("<meta property=\"og:image\" content=\"https://1step621.github.io/assets/1step621_icon.png\">");
 };
 
 $(function() {
