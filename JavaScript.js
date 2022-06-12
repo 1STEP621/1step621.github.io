@@ -25,7 +25,7 @@ var setOgp = function() {
   var title = $("title").text();
   var url = $(location).attr("href");
   var desc = $(".wrapper").text().slice(0, 80);
-  var head = $(head).text();
+  var head = $("head").html();
   if (head.match(/og:type/) == null) {
     $("head").append("<meta property=\"og:type\" content=\"article\">");
   }
