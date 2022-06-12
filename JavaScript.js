@@ -38,7 +38,7 @@ var setOgp = function() {
   $("head").append("<meta property=\"og:image\" content=\"https://1step621.github.io/assets/1step621_icon.png\">");
 };
 
+setOgp();
 $(function() {
-  setOgp();
   loadFile();
 });
