@@ -26,10 +26,10 @@ var setOgp = function() {
   var url = $(location).attr("href");
   var desc = $(".wrapper").text().slice(0, 80);
   var head = $(head).text();
-  if (head.match("(?!/og:type/)") == null) {
+  if (head.match(/og:type/) == null) {
     $("head").append("<meta property=\"og:type\" content=\"article\">");
   }
-  if (head.match("(?!/og:description/)") == null) {
+  if (head.match(/og:description/) == null) {
     $("head").append("<meta property=\"og:description\" content=\"" + desc + "...\">");
   }
   $("head").append("<meta property=\"og:title\" content=\"" + title + "\">");
