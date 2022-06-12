@@ -39,6 +39,6 @@ var setOgp = function() {
 };
 
 $(function() {
-  loadFile();
   setOgp();
+  loadFile();
 });
