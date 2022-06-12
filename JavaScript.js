@@ -27,7 +27,7 @@ var setOgp = function() {
   var desc = $(".wrapper").text().slice(0, 80);
   var head = $(head).text();
   if (head.match("(?!/og:type/)") != null) {
-    $("head").append("<meta property=\"og:type\" content=\"artile\">");
+    $("head").append("<meta property=\"og:type\" content=\"article\">");
   }
   if (head.match("(?!/og:description/)") != null) {
     $("head").append("<meta property=\"og:description\" content=\"" + desc + "...\">");
