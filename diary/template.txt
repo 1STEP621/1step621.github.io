@@ -20,7 +20,7 @@
   <!-- タイトルを記入 -->
   <meta property="og:title" content="タイトル | 1STEP621のホームページ">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="1step621.github.io/assets/1step621_icon.png">
+  <meta property="og:image" content="https://1step621.github.io/assets/ogp.png">
   <!-- 説明を記入 -->
   <meta property="og:description" content="説明">
 </head>
