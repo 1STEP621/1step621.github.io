@@ -17,8 +17,12 @@
   <link rel="stylesheet" href="https://1step621.github.io/StyleSheet.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://1step621.github.io/JavaScript.js"></script>
-  <!-- ここにも忘れずタイトルを記入 -->
-  <title>タイトル | 1STEP621のホームページ</title>
+  <!-- タイトルを記入 -->
+  <meta property="og:title" content="タイトル | 1STEP621のホームページ">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="1step621.github.io/assets/1step621_icon.png">
+  <!-- 説明を記入 -->
+  <meta property="og:description" content="説明">
 </head>
 
 <body>

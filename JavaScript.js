@@ -21,23 +21,14 @@ var loadFile = function() {
     });
 };
 
-var setOgp = function() {
-  var title = $("title").text();
-  var url = $(location).attr("href");
-  var desc = $(".wrapper").text().slice(0, 80);
-  var head = $("head").html();
-  if (head.match(/og:type/) == null) {
-    $("head").append("<meta property=\"og:type\" content=\"article\">");
-  }
-  if (head.match(/og:description/) == null) {
-    $("head").append("<meta property=\"og:description\" content=\"" + desc + "...\">");
-  }
-  $("head").append("<meta property=\"og:title\" content=\"" + title + "\">");
-  $("head").append("<meta property=\"og:url\" content=\"" + url + "\">");
-  $("head").append("<meta property=\"og:site_name\" content=\"1step621.github.io\">");
+var setForSeo = function() {
+  var title = $('meta[property="og:title"]').attr("content");
+  var desc = $('meta[property="og:description"]').attr("content");
+  $("head").append("<title>"+title+"</title>")
+  $("head").append('<meta name="description" content="'+desc+'">')
 };
 
 $(function() {
-  setOgp();
+  setForSeo();
   loadFile();
 });
