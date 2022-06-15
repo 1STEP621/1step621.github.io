@@ -434,3 +434,8 @@ iframe {
     transform: translate(50px, 0px);
   }
 }
+
+/*作成途中のモノ*/
+.test {
+  display: none;
+}
