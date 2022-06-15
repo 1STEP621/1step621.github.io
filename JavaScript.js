@@ -31,18 +31,11 @@ var setForSeo = function() {
 var addDiary = function() {
   $.ajax({
       type: "GET",
-      url: "https://api.scratch.mit.edu/studios/31762993/comments/?offset=0&limit=40",
-      dataType: "json"
+      url: "https://scratch.mit.edu/site-api/comments/gallery/31762993/",
+      dataType: "html"
     })
     .done(function(result) {
-      length = Object.keys(result).length;
-      for (var i = 0; i < length; i++) {
-        var content = result[i]["content"];
-        var date = result[i]["datetime_created"].slice(0, 10);
-        var id = result[i]["id"];
-        var html = '<a href="article?id=' + id + '" class="block-link"><div class="diary-box"><h1>' + content + '</h1><time>' + date + '</time></div></a>';
-        $(".test").append(html);
-      }
+      console.log(result);
     });
 };
 
