@@ -41,7 +41,7 @@ var addDiary = function() {
         var date = result[i]["datetime_created"].slice(0, 10);
         var id = result[i]["id"];
         var html = '<a href="article?id=' + id + '" class="block-link"><div class="diary-box"><h1>' + content + '</h1><time>' + date + '</time></div></a>';
-        $(".diary-boxes .test").append(html);
+        $(".test").append(html);
       }
     });
 };
