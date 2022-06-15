@@ -35,4 +35,5 @@ https://webdesign-abc.com/howto/head-tag/
 https://www.sungrove.co.jp/ogp-setting/  
 https://www.buildinsider.net/web/jqueryref/037  
 https://qiita.com/nekoneko-wanwan/items/227ccad5f8cc449e91e9  
+https://omachizura.com/2015/04/javascript-json-length.html  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
