@@ -56,7 +56,7 @@ $(function() {
   if (url.match(/^.*diary$/) != null) {
     addDiaryBox();
   }
-  if (pathname == article) {
+  if (pathName == article) {
     /*addDiary();*/
   } else {
     setForSeo();
