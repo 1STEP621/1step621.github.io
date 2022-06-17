@@ -52,7 +52,7 @@ const addDiary = function() {
 $(function() {
   setForSeo();
   loadFile();
-  const url = (location).attr("href");
+  const url = $(location).attr("href");
   if (url.match(/diary\//) != null) {
     addDiary();
   }
