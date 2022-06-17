@@ -1,5 +1,5 @@
-var loadFile = function() {
-  var content = 0;
+const loadFile = function() {
+  let content = 0;
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
   $("#projects").load("https://1step621.github.io/projects/list.html");
@@ -21,16 +21,16 @@ var loadFile = function() {
     });
 };
 
-var setForSeo = function() {
-  var title = $('meta[property="og:title"]').attr("content");
-  var desc = $('meta[property="og:description"]').attr("content");
+const setForSeo = function() {
+  let title = $('meta[property="og:title"]').attr("content");
+  let desc = $('meta[property="og:description"]').attr("content");
   $("head").append("<title>"+title+"</title>")
   $("head").append('<meta name="description" content="'+desc+'">')
 };
 
-var addDiary = function() {
-  var titles, dates, length;
-  var title, date, content;
+const addDiary = function() {
+  let titles, dates, length;
+  let title, date, content;
   $.ajax({
       type: "GET",
       url: "https://1step621.github.io/diary-data/index.html",
@@ -52,5 +52,8 @@ var addDiary = function() {
 $(function() {
   setForSeo();
   loadFile();
-  addDiary();
+  const url = (location).attr(href);
+  if (url.match(/diary\//) != null) {
+    addDiary();
+  }
 });
