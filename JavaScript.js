@@ -36,7 +36,7 @@ const addDiaryBox = function() {
       dataType: "html"
     })
     .done(function(result) {
-      meta = $(result).filter("meta");
+      meta = $(result).filter('meta[name="diary-start"]');
       length = meta.length;
       for (i = 0; i < length; i++) {
         title = $(meta[i]).data("title");
