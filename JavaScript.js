@@ -38,7 +38,7 @@ const addDiaryBox = function() {
     .done(function(result) {
       meta = $(result).filter("meta");
       length = meta.length;
-      for (i = 0; i <= length; i++) {
+      for (i = 0; i < length; i++) {
         title = $(meta[i]).data("title");
         date = $(meta[i]).data("date");
         content = '<a href=article?id=' + date + ' class="block-link"><div class="diary-box"><h1>' + title + '</h1><time>' + date + '</time></div></a>';
@@ -51,7 +51,7 @@ $(function() {
   loadFile();
   const url = $(location).attr("href");
   const pathName = $(location).attr("pathname");
-  if (url.match(/^.*diary$/) != null) {
+  if (url.match(/^.*diary\/$/) != null) {
     addDiaryBox();
   }
   if (pathName == "article") {
