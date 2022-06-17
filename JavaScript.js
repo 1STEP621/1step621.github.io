@@ -28,7 +28,7 @@ const setForSeo = function() {
   $("head").append('<meta name="description" content="'+desc+'">')
 };
 
-const addDiary = function() {
+const addDiaryBox = function() {
   let titles, dates, length;
   let title, date, content;
   $.ajax({
@@ -50,10 +50,15 @@ const addDiary = function() {
 };
 
 $(function() {
-  setForSeo();
   loadFile();
   const url = $(location).attr("href");
-  if (url.match(/diary\//) != null) {
-    addDiary();
+  const pathName = $(location).attr("pathname");
+  if (url.match(/^.*diary$/) != null) {
+    addDiaryBox();
+  }
+  if (pathname == article) {
+    /*addDiary();*/
+  } else {
+    setForSeo();
   }
 });
