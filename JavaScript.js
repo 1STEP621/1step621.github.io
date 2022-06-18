@@ -45,7 +45,7 @@ const addDiaryBox = function() {
         title = $(meta[i]).data("title");
         date = $(meta[i]).data("date");
         content = '<a href=article?id=' + date + ' class="block-link"><div class="diary-box"><h1>' + title + '</h1><time>' + date + '</time></div></a>';
-        $(".test").append(content);
+        $(".diary-boxes").append(content);
       }
     });
 };
