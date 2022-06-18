@@ -21,11 +21,14 @@ const loadFile = function() {
     });
 };
 
-const setForSeo = function() {
+const setTitle = function() {
   let title = $('meta[property="og:title"]').attr("content");
+  $("head").append("<title>"+title+"</title>");
+};
+
+const setDesc = function() {
   let desc = $('meta[property="og:description"]').attr("content");
-  $("head").append("<title>"+title+"</title>")
-  $("head").append('<meta name="description" content="'+desc+'">')
+  $("head").append('<meta name="description" content="'+desc+'">');
 };
 
 const addDiaryBox = function() {
@@ -89,6 +92,7 @@ const addDiary = function() {
       $(".wrapper").html("<h1>"+thisTitle+"</h1>");
       $(".wrapper").append(thisContent);
       $(".wrapper").append("<time>"+thisDate+"</time>");
+      $("head").append("<title>"+thisTitle+"</title>");
     });
 }
 
@@ -101,6 +105,7 @@ $(function() {
   if (pathName == "/diary/article") {
     addDiary();
   } else {
-    setForSeo();
+    setTitle();
   }
+  setDesc();
 });
