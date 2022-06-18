@@ -92,12 +92,11 @@ const addDiary = function() {
 
 $(function() {
   loadFile();
-  const url = $(location).attr("href");
   const pathName = $(location).attr("pathname");
-  if (url.match(/^.*diary\/$/) != null) {
+  if (pathName == "/diary/") {
     addDiaryBox();
   }
-  if (pathName == "article") {
+  if (pathName == "diary/article") {
     addDiary();
   } else {
     setForSeo();
