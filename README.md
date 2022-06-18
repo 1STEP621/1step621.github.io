@@ -38,4 +38,8 @@ https://qiita.com/nekoneko-wanwan/items/227ccad5f8cc449e91e9
 https://omachizura.com/2015/04/javascript-json-length.html  
 https://qiita.com/yumetodo/items/00b37234cb86e741f0fb  
 https://sun-san-tech.com/regex/90/  
+https://js.studio-kingdom.com/jquery/traversing/not  
+https://www.jquerystudy.info/reference/traversing/add.html  
+https://qiita.com/minodisk/items/1fc538179ba8bd881325  
+https://www.javadrive.jp/javascript/object/index5.html  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
