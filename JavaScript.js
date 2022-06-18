@@ -47,6 +47,49 @@ const addDiaryBox = function() {
     });
 };
 
+const addDiary = function() {
+  let data, id, thisMeta, thisTitle, thisDate, startNum, endNum, thisContent;
+  let i = 0;
+  let isFind = true;
+  $.ajax({
+      type: "GET",
+      url: "https://1step621.github.io/diary-data/index.html",
+      dataType: "html"
+    })
+    .done(function(result) {
+      data = $(result);
+      id = $(location).attr("search").slice(4, 14);
+      i = 0;
+      while (isFind) {
+        isFind = $(data[i]).data("date") != id;
+        i++;
+        if (i > 1000) {
+          isFind = false;
+        }
+      }
+      startNum = i - 1;
+      thisMeta = data[startNum];
+      thisTitle = $(data[startNum]).data("title");
+      thisDate = $(data[startNum]).data("date");
+
+      isFind = true;
+      i = startNum;
+      thisContent = $();
+      while (isFind) {
+        isFind = $(data[i]).attr("name") != "diary-end";
+        thisContent = thisContent.add($(data[i]));
+        i++;
+        if (i > 1000) {
+          isFind = false;
+        }
+      }
+      endNum = i - startNum - 1;
+      thisContent = thisContent.not("meta");
+
+      $(".wrapper").html(thisContent);
+    });
+}
+
 $(function() {
   loadFile();
   const url = $(location).attr("href");
@@ -55,7 +98,7 @@ $(function() {
     addDiaryBox();
   }
   if (pathName == "article") {
-    /*addDiary();*/
+    addDiary();
   } else {
     setForSeo();
   }
