@@ -96,7 +96,7 @@ $(function() {
   if (pathName == "/diary/") {
     addDiaryBox();
   }
-  if (pathName == "diary/article") {
+  if (pathName == "/diary/article") {
     addDiary();
   } else {
     setForSeo();
