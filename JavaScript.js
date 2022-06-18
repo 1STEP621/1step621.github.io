@@ -86,7 +86,9 @@ const addDiary = function() {
       endNum = i - startNum - 1;
       thisContent = thisContent.not("meta");
 
-      $(".wrapper").html(thisContent);
+      $(".wrapper").html("<h1>"+thisTitle+"</h1>");
+      $(".wrapper").append(thisContent);
+      $(".wrapper").append("<time>"+thisDate+"</time>");
     });
 }
 
