@@ -92,7 +92,7 @@ const addDiary = function() {
       $(".wrapper").html("<h1>"+thisTitle+"</h1>");
       $(".wrapper").append(thisContent);
       $(".wrapper").append("<time>"+thisDate+"</time>");
-      $("head").append("<title>"+thisTitle+"</title>");
+      $("head").append("<title>"+thisTitle+" | 1STEP621のホームページ</title>");
     });
 }
 
