@@ -66,8 +66,9 @@ const addDiary = function() {
       while (isFind) {
         isFind = $(data[i]).data("date") != id;
         i++;
-        if (i > 1000) {
-          isFind = false;
+        if (i > data.length) {
+          window.location.href = "https://1step621.github.io/404";
+          return;
         }
       }
       startNum = i - 1;
@@ -82,8 +83,9 @@ const addDiary = function() {
         isFind = $(data[i]).attr("name") != "diary-end";
         thisContent = thisContent.add($(data[i]));
         i++;
-        if (i > 1000) {
-          isFind = false;
+        if (i > data.length - startNum) {
+          window.location.href = "https://1step621.github.io/404";
+          return;
         }
       }
       endNum = i - startNum - 1;
@@ -94,7 +96,7 @@ const addDiary = function() {
       $(".wrapper").append("<time>"+thisDate+"</time>");
       $("head").append("<title>"+thisTitle+" | 1STEP621のホームページ</title>");
     });
-}
+};
 
 $(function() {
   loadFile();
