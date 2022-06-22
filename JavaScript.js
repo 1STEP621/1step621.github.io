@@ -83,10 +83,6 @@ const addDiary = function() {
         isFind = $(data[i]).attr("name") != "diary-end";
         thisContent = thisContent.add($(data[i]));
         i++;
-        if (i > data.length - startNum) {
-          window.location.href = "https://1step621.github.io/404";
-          return;
-        }
       }
       endNum = i - startNum - 1;
       thisContent = thisContent.not("meta");
