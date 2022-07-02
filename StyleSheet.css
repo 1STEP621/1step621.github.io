@@ -7,10 +7,19 @@
   --turbowarp-red: #ff4d4d;
   --white: #ffffff;
   --black: #333333;
+  --gray: #a7a7a7;
 }
 
 * {
   margin: 0px;
+}
+
+:where(*:not(html,body,wrapper,#footer)) {
+  margin-bottom: 20px;
+}
+
+:is(body,.wrapper) :where(div:not(.wrapper),header,footer) * {
+  margin-bottom: 0;
 }
 
 a:focus-visible {
@@ -37,20 +46,17 @@ h1 {
 h1:not(.page-title-text) {
   padding-left: 10px;
   border-left: double 9px var(--primary-deep);
-  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 20px;
   border-bottom: solid 1.5px var(--primary-deep);
 }
 
 h3 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
@@ -67,7 +73,6 @@ p, a {
 }
 
 p {
-  margin-bottom: 20px;
   line-height: 2.5em;
 }
 
@@ -84,7 +89,6 @@ a {
 
 /*テキストリンク*/
 a:not(.block-link) {
-  display: inline;
   color: var(--primary-deep);
   word-break: break-all;
   line-height: 2.5em;
@@ -96,10 +100,9 @@ a:not(.block-link):hover {
 
 time {
   font-size: 17px;
-  color: #a7a7a7;
-  margin-bottom: 20px;
   display: inline-block;
   font-weight: normal;
+  color: var(--gray);
 }
 
 img {
@@ -109,7 +112,6 @@ img {
 .wrapper {
   margin: 0 auto;
   width: min(100%, 35em);
-  padding: 15px;
 }
 
 /*文字装飾系*/
@@ -127,6 +129,26 @@ img {
 
 .bold {
   font-weight: bold;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.h1-size {
+  font-size: 30px;
+}
+
+.h2-size {
+  font-size: 25px;
+}
+
+.h3-size {
+  font-size: 20px;
+}
+
+.light {
+  color: var(--gray);
 }
 
 /*ヘッダー*/
@@ -182,10 +204,6 @@ footer {
   padding: 20px;
 }
 
-footer p {
-  margin: 0px;
-}
-
 /*反転した時の文字色*/
 ::selection {
   background: var(--theme-color);
@@ -226,7 +244,6 @@ footer p {
   transition: bottom 0.3s;
   width: 100%;
   text-align: right;
-  margin: 0;
   box-sizing: border-box;
   padding: 0px 15px;
   background: #00000040;
@@ -280,14 +297,17 @@ a.seemore {
 
 /*プロジェクトページ用*/
 .iframe-wrapper {
-  --ratio: calc(240 / 180);
-  --width: min(95vw, calc(93vh * var(--ratio)));
-  --height: calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
+  --ratio:
+  calc(240 / 180);
+  --width:
+  min(95vw, calc(93vh * var(--ratio)));
+  --height:
+  calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
   width: var(--width);
   height: var(--height);
   max-width: 800px;
   max-height: calc(800px / var(--ratio) + 44px);
-  margin: auto;
+  margin: 0 auto 20px auto;
   user-select: none;
 }
 
@@ -301,16 +321,11 @@ iframe {
   width: 100%;
   border-left: solid 3px var(--primary-deep);
   padding-left: 10px;
-  margin: 10px auto 0 auto;
 }
 
 .caption h1 {
   border: 0;
   padding: 0;
-}
-
-.caption * {
-  margin: 0;
 }
 
 .buttons {
@@ -338,9 +353,9 @@ iframe {
   box-shadow: 0 0 5px var(--primary-deep);
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 20px;
   transition: box-shadow 0.3s, background-color 0.3s;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .diary-box:hover {
@@ -361,7 +376,6 @@ iframe {
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1 200px;
-  margin: 0;
 }
 
 .diary-boxes a {
@@ -372,7 +386,8 @@ iframe {
 .top-image {
   width: 35em;
   max-width: 90%;
-  margin: 10px auto;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .top-image svg {
@@ -403,7 +418,7 @@ iframe {
   color: var(--white);
   padding: 15px;
   line-height: 1.5em;
-  margin-bottom: 0;
+  margin: 0;
   background-color: var(--primary-deep);
 }
 
