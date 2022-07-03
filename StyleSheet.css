@@ -3,11 +3,20 @@
   --primary-deep: #4e7682;
   --primary-light: #eaf7fb;
   --theme-color: #8daeb8;
+  
   --scratch-orange: #ffab19;
   --turbowarp-red: #ff4d4d;
+  
   --white: #ffffff;
   --black: #333333;
   --gray: #a7a7a7;
+  
+  --h1-size: 30px;
+  --h2-size: 25px;
+  --h3-size: 20px;
+  --normal-size: 17px;
+  --big-size: 33px;
+  --small-size: 14px;
 }
 
 * {
@@ -35,7 +44,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: var(--h1-size);
   font-weight: bold;
 }
 
@@ -45,13 +54,13 @@ h1:not(.page-title-text) {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: var(--h2-size);
   font-weight: bold;
   border-bottom: solid 1.5px var(--primary-deep);
 }
 
 h3 {
-  font-size: 20px;
+  font-size: var(--h3-size);
   font-weight: bold;
   border-bottom: dashed 1.5px var(--primary-deep);
 }
@@ -61,11 +70,20 @@ div,header,footer {
 }
 
 ul {
+  list-style: none;
   font-size: 0;
 }
 
+ul.dot {
+  list-style: "・";
+}
+
+li {
+  font-size: var(--normal-size);
+}
+
 p, a {
-  font-size: 17px;
+  font-size: var(--normal-size);
 }
 
 p {
@@ -95,7 +113,7 @@ a:not(.block-link):hover {
 }
 
 time {
-  font-size: 17px;
+  font-size: var(--normal-size);
   display: inline-block;
   font-weight: normal;
   color: var(--gray);
@@ -112,11 +130,15 @@ img {
 
 /*文字装飾系*/
 .big {
-  font-size: 33px;
+  font-size: var(--big-size);
 }
 
 .small {
-  font-size: 14px;
+  font-size: var(--small-size);
+}
+
+.normal {
+  font-size: var(--normal-size);
 }
 
 .delete {
@@ -127,20 +149,16 @@ img {
   font-weight: bold;
 }
 
-.small {
-  font-size: 14px;
-}
-
 .h1-size {
-  font-size: 30px;
+  font-size: var(--h1-size);
 }
 
 .h2-size {
-  font-size: 25px;
+  font-size: var(--h2-size);
 }
 
 .h3-size {
-  font-size: 20px;
+  font-size: var(--h3-size);
 }
 
 .light {
@@ -169,7 +187,6 @@ header {
 }
 
 .nav-list-item {
-  list-style: none;
   border: solid 1px var(--primary-deep);
   border-radius: 10px;
   color: var(--primary-deep);
