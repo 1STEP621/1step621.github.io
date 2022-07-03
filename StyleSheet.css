@@ -21,6 +21,7 @@
 
 * {
   margin: 0px;
+  font-size: var(--normal-size);
 }
 
 :where(:is(.wrapper,body)>*:not(#footer)) {
