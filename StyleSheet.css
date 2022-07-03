@@ -78,7 +78,7 @@ ul.dot {
   list-style: "・";
 }
 
-li {
+ul * {
   font-size: var(--normal-size);
 }
 
