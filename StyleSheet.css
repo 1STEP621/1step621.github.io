@@ -14,12 +14,8 @@
   margin: 0px;
 }
 
-:where(*:not(html,body,wrapper,#footer)) {
+:where(:is(.wrapper,body)>*:not(#footer)) {
   margin-bottom: 20px;
-}
-
-:is(body,.wrapper) :where(div:not(.wrapper),header,footer) * {
-  margin-bottom: 0;
 }
 
 a:focus-visible {
@@ -264,6 +260,7 @@ footer {
   padding: 15px;
   background-color: var(--primary-light);
   border-radius: 10px;
+  margin: 0;
 }
 
 .works #projects {
