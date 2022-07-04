@@ -3,14 +3,11 @@
   --primary-deep: #4e7682;
   --primary-light: #eaf7fb;
   --theme-color: #8daeb8;
-  
   --scratch-orange: #ffab19;
   --turbowarp-red: #ff4d4d;
-  
   --white: #ffffff;
   --black: #333333;
   --gray: #a7a7a7;
-  
   --h1-size: 30px;
   --h2-size: 25px;
   --h3-size: 20px;
@@ -24,11 +21,11 @@
   font-size: var(--normal-size);
 }
 
-p,dt,dd,span{
+p, dt, dd, span {
   line-height: 2.5em;
 }
 
-:where(:is(.wrapper,body)>*:not(#footer)) {
+:where(:is(.wrapper, body)>*:not(#footer)) {
   margin-bottom: 20px;
 }
 
@@ -70,7 +67,7 @@ h3 {
   border-bottom: dashed 1.5px var(--primary-deep);
 }
 
-div,header,footer {
+div, header, footer {
   box-sizing: border-box;
 }
 
@@ -311,11 +308,11 @@ a.seemore {
 /*プロジェクトページ用*/
 .iframe-wrapper {
   --ratio:
-  calc(240 / 180);
+    calc(240 / 180);
   --width:
-  min(95vw, calc(93vh * var(--ratio)));
+    min(95vw, calc(93vh * var(--ratio)));
   --height:
-  calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
+    calc(min(calc(95vw / var(--ratio)), 93vh) + 44px);
   width: var(--width);
   height: var(--height);
   max-width: 800px;
