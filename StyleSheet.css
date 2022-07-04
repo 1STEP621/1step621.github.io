@@ -24,6 +24,10 @@
   font-size: var(--normal-size);
 }
 
+p,dt,dd{
+  line-height: 2.5em;
+}
+
 :where(:is(.wrapper,body)>*:not(#footer)) {
   margin-bottom: 20px;
 }
@@ -87,10 +91,6 @@ p, a {
   font-size: var(--normal-size);
 }
 
-p {
-  line-height: 2.5em;
-}
-
 a {
   text-decoration: none;
   font-weight: bold;
@@ -106,7 +106,6 @@ a {
 a:not(.block-link) {
   color: var(--primary-deep);
   word-break: break-all;
-  line-height: 2.5em;
 }
 
 a:not(.block-link):hover {
@@ -126,6 +125,7 @@ img {
 
 .wrapper {
   margin: 0 auto;
+  padding: 0 20px;
   width: min(100%, 35em);
 }
 
@@ -181,23 +181,22 @@ header {
 
 .nav-list {
   padding: 0px;
+  display: flex;
 }
 
 .nav-list a {
-  margin: 0 10px;
-}
-
-.nav-list-item {
-  border: solid 1px var(--primary-deep);
-  border-radius: 10px;
+  padding: 7px;
   color: var(--primary-deep);
-  padding: 6px;
-  transition: background-color .3s, color .3s;
+  margin: 0 10px;
+  line-height: 1.2em;
+  border-radius: 10px;
+  border: solid 1.5px var(--primary-deep);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.nav-list-item:hover {
-  color: var(--white);
+.nav-list a:hover {
   background-color: var(--primary-deep);
+  color: var(--white);
 }
 
 .page-title {
@@ -254,7 +253,6 @@ footer {
   position: absolute;
   user-select: none;
   bottom: -2.5em;
-  line-height: 2.5em;
   transition: bottom 0.3s;
   width: 100%;
   text-align: right;
