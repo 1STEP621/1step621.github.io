@@ -184,7 +184,7 @@ header {
   display: flex;
 }
 
-.nav-list a {
+.nav-list-item a {
   padding: 7px;
   color: var(--primary-deep);
   margin: 0 10px;
@@ -194,7 +194,7 @@ header {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.nav-list a:hover {
+.nav-list-item a:hover {
   background-color: var(--primary-deep);
   color: var(--white);
 }
