@@ -24,7 +24,7 @@
   font-size: var(--normal-size);
 }
 
-p,dt,dd{
+p,dt,dd,span{
   line-height: 2.5em;
 }
 
