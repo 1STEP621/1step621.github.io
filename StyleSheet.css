@@ -93,6 +93,14 @@ a {
   font-weight: bold;
 }
 
+dt::before {
+  content: "【";
+}
+
+dt::after {
+  content: "】";
+}
+
 /*ボタン系リンク土台*/
 .block-link {
   display: inline-block;
