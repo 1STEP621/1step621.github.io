@@ -133,9 +133,9 @@ const addProject = function() {
       thisContent = thisContent.not("meta");
 
       $("#scratch-project iframe").attr("src", "https://turbowarp.org/" + thisId + "/embed" + thisQuery);
-      $(".view-on-scratch").attr("src", "https://scratch.mit.edu/projects/" + thisId);
+      $(".view-on-scratch").attr("href", "https://scratch.mit.edu/projects/" + thisId);
       $(".caption").append(thisContent);
-      $("head").append("<title>" + thisTitle + "</title>")
+      $("head").append("<title>" + thisTitle + " | 1STEP621のホームページ</title>")
     });
 };
 
