@@ -2,7 +2,6 @@ const loadFile = function() {
   let content = 0;
   $("#header").load("https://1step621.github.io/header.html");
   $("#footer").load("https://1step621.github.io/footer.html");
-  $("#projects").load("https://1step621.github.io/projects/list.html");
   console.log("load");
   $.ajax({
       type: "GET",
@@ -94,6 +93,25 @@ const addDiary = function() {
     });
 };
 
+const addProjectList = function() {
+  let meta, title, id;
+  $.ajax({
+      type: "GET",
+      url: "https://1step621.github.io/projects-data/index.html",
+      dataType: "html"
+    })
+    .done(function(result) {
+      meta = $(result).filter('meta[name="project-start"]');
+      length = meta.length;
+      for (i = 0; i < length; i++) {
+        title = $(meta[i]).data("title");
+        id = $(meta[i]).data("id");
+        content = `<a href=https://1step621.github.io/projects/work?id=${id}#scratch-project><div class="project"><img src="https://uploads.scratch.mit.edu/get_image/project/${id}_480x360.png" alt="${title}"><span>${title}</span></div></a>`;
+        $("#projects").append(content);
+      }
+    });
+};
+
 const addProject = function() {
   let data, id, thisMeta, thisTitle, thisId, thisQuery, startNum, endNum, thisContent;
   let i = 0;
@@ -141,6 +159,7 @@ const addProject = function() {
 
 $(function() {
   loadFile();
+  addProjectList();
   const pathName = $(location).attr("pathname");
   if (pathName == "/diary/") {
     addDiaryList();
