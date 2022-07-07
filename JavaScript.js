@@ -123,12 +123,12 @@ const addProject = function() {
     })
     .done(function(result) {
       data = $(result);
-      id = $(location).attr("search").match(/\d.*/);
+      id = $(location).attr("search").match(/\d.*/)[0];
       i = 0;
       while (isFind) {
         isFind = $(data[i]).data("id") != id;
         i++;
-        if (i > data.length) {
+        if (i > data.length || $.isNumeric(id) == false) {
           window.location.href = "https://1step621.github.io/404";
           return;
         }
