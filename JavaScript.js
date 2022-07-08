@@ -123,7 +123,7 @@ const addProject = function() {
     })
     .done(function(result) {
       data = $(result);
-      $(location).attr("search").slice(4, $(location).attr("search").length);
+      id = $(location).attr("search").match(/(?<=\=).*$/)[0];
       i = 0;
       while (isFind) {
         isFind = $(data[i]).data("id") != id;
