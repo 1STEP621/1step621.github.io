@@ -43,4 +43,5 @@ https://www.jquerystudy.info/reference/traversing/add.html
 https://qiita.com/minodisk/items/1fc538179ba8bd881325  
 https://www.javadrive.jp/javascript/object/index5.html  
 https://qumeru.com/magazine/450  
+https://boukenki.info/sakuraeditor-shiteimoji-ato-sakujo/  
 HTMLをまったく知らない状態から始めたので、このほかにもいろいろなサイトの情報を参考にさせていただきました。
