@@ -61,7 +61,6 @@ const addDiary = function() {
     .done(function(result) {
       data = $(result);
       id = $(location).attr("search").slice(4, 14);
-      i = 0;
       while (isFind) {
         isFind = $(data[i]).data("date") != id;
         i++;
@@ -116,6 +115,10 @@ const addProject = function() {
   let data, id, thisMeta, thisTitle, thisId, thisQuery, startNum, endNum, thisContent;
   let i = 0;
   let isFind = true;
+  if ($(location).attr("search").length < 4) {
+    window.location.href = "https://1step621.github.io/404";
+  }
+  id = $(location).attr("search").match(/(?<=\=).*$/)[0];
   $.ajax({
       type: "GET",
       url: "https://1step621.github.io/projects-data/index.html",
@@ -123,8 +126,6 @@ const addProject = function() {
     })
     .done(function(result) {
       data = $(result);
-      id = $(location).attr("search").match(/(?<=\=).*$/)[0];
-      i = 0;
       while (isFind) {
         isFind = $(data[i]).data("id") != id;
         i++;
