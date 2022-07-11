@@ -101,6 +101,12 @@ dt::after {
   content: "】";
 }
 
+rt {
+  font-size: 12px;
+  text-align: center;
+  transform: translateY(-5px);
+}
+
 /*ボタン系リンク土台*/
 .block-link {
   display: inline-block;
