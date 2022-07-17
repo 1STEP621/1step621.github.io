@@ -122,7 +122,7 @@ const addProject = function() {
       while (isFind) {
         isFind = $(data[i]).data("id") != id;
         i++;
-        if (i > data.length || $.isNumeric(id) == false) {
+        if (i > data.length || id.match(/^.\d$/) != null) {
           window.location.href = "https://1step621.github.io/404";
           return;
         }
