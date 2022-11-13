@@ -19,10 +19,11 @@
 * {
   margin: 0px;
   font-size: var(--normal-size);
+  line-height: 2.5em;
 }
 
-p, dt, dd, span {
-  line-height: 2.5em;
+h1, h2, h3, .block-link {
+  line-height: 1.5em;
 }
 
 :where(:is(.wrapper, body)>*:not(#footer)) {
@@ -441,7 +442,6 @@ iframe {
   transition: box-shadow cubic-bezier(0.47, 0.63, 0.31, 2.27) .3s;
   color: var(--white);
   padding: 15px;
-  line-height: 1.5em;
   margin: 0;
   background-color: var(--primary-deep);
 }
