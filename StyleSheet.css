@@ -353,6 +353,10 @@ iframe {
   padding: 0;
 }
 
+.caption p {
+  white-space: pre-wrap;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
