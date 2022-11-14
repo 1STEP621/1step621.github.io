@@ -19,7 +19,7 @@
 * {
   margin: 0px;
   font-size: var(--normal-size);
-  line-height: 2.5em;
+  line-height: 1.7em;
 }
 
 h1, h2, h3, .block-link {
@@ -197,10 +197,9 @@ header {
 }
 
 .nav-list-item a {
-  padding: 7px;
+  padding: 4px 7px;
   color: var(--primary-deep);
   margin: 0 10px;
-  line-height: 1.2em;
   border-radius: 10px;
   border: solid 1.5px var(--primary-deep);
   transition: background-color 0.3s, color 0.3s;
@@ -344,8 +343,10 @@ iframe {
 
 .caption {
   width: 100%;
-  border-left: solid 3px var(--primary-deep);
-  padding-left: 10px;
+  background-color: var(--primary-light);
+  border: solid 2px var(--primary-deep);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .caption h1 {
