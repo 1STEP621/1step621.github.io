@@ -263,6 +263,7 @@ footer {
   display: block;
   position: absolute;
   user-select: none;
+  line-height: 2.5em;
   bottom: -2.5em;
   transition: bottom 0.3s;
   width: 100%;
