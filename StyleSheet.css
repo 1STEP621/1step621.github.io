@@ -132,6 +132,7 @@ time {
 }
 
 img {
+  vertical-align: middle;
   max-width: 100%;
 }
 
@@ -256,7 +257,6 @@ footer {
 
 .project img {
   width: 100%;
-  vertical-align: middle;
 }
 
 .project span {
@@ -411,6 +411,12 @@ iframe {
 
 .diary-boxes a {
   display: block;
+}
+
+/*日記ページ用*/
+.diary-figure {
+  border-radius: 10px;
+  border: solid 3px var(--primary-deep);
 }
 
 /*トップ画像アニメーション*/
