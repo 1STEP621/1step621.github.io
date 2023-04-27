@@ -380,7 +380,6 @@ iframe {
 .diary-box {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
   box-shadow: 0 0 5px var(--primary-deep);
@@ -401,6 +400,13 @@ iframe {
   width: 90px;
   width: fit-content;
   margin: auto;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  .diary-box time {
+    display: none;
+  }
 }
 
 .diary-box h1 {
