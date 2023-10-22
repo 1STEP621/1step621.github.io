@@ -479,6 +479,19 @@ iframe {
   background-color: var(--turbowarp-red);
 }
 
+/*汎用input体裁*/
+input, select {
+  font-family: 'Noto Sans JP';
+  color: var(--black);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: solid 2px var(--primary-deep);
+  border-radius: 10px;
+}
+
 /*カクカクアニメーション*/
 .kakukaku {
   display: inline-block;
