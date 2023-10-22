@@ -464,6 +464,7 @@ iframe {
   padding: 15px;
   margin: 0;
   background-color: var(--primary-deep);
+  cursor: pointer;
 }
 
 .button:hover {
