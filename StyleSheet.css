@@ -480,10 +480,6 @@ iframe {
   background-color: var(--turbowarp-red);
 }
 
-.button * {
-  margin: auto;
-}
-
 /*汎用input体裁*/
 input, select {
   font-family: 'Noto Sans JP';
