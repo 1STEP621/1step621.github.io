@@ -457,6 +457,7 @@ iframe {
 .button {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   border-radius: 10px;
   box-shadow: inset 0 0 0 0px #00000020;
   transition: box-shadow cubic-bezier(0.47, 0.63, 0.31, 2.27) .3s;
